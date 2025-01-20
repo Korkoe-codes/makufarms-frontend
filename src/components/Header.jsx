@@ -24,14 +24,13 @@ const Header = () => {
     >
       <div className="flex items-center justify-between px-4 lg:px-7 xl:px-10 max-lg:py-4">
         <a href="/" className="flex xl:mr-8 items-center flex-row lg:items-center">
-          <img src={Logo} alt="logo" width={80} height={20} />
+          <img src={Logo} alt="logo" width={50} height={20} />
           <h3 className="text-lg font-semibold text-slate-600">Maku Farms Ghana</h3>
         </a>
         <button
           className="flex flex-col items-center lg:hidden"
-          onClick={toggleNavigation} // Toggle menu on button click
+          onClick={toggleNavigation}
         >
-          {/* Hamburger Icon */}
           {!openNavigation ? (
             <div className="flex flex-col gap-y-2">
               <span className="w-10 h-1 rounded-lg bg-slate-600"></span>
@@ -39,7 +38,6 @@ const Header = () => {
               <span className="w-10 h-1 rounded-lg bg-slate-600"></span>
             </div>
           ) : (
-            // X Icon
             <div className="flex flex-col gap-y-1">
               <span className="w-10 h-1 transform rotate-45 bg-slate-600 rounded-lg"></span>
               <span className="w-10 h-1 transform -rotate-45 bg-slate-600 rounded-lg"></span>
