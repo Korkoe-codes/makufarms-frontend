@@ -56,7 +56,7 @@ const Header = () => {
           <li className={`font-normal cursor-pointer ${index === navigationLinks.length - 1 ? 'mr-0' : 'mb-4'}`}
           key={nav.id}
           >
-            <a href={`#${nav.url}`} className="decoration-2 hover:underline underline-offset-8 text-slate-600 hover:text-yellow-500  text-semibold transition duration-200 ">
+            <a href={`#${nav.url}`} className="decoration-2 hover:underline underline-offset-8 text-slate-600 hover:text-yellow-500  text-semibold md:text-lg transition duration-200 ">
               {nav.title}
             </a>
           </li>

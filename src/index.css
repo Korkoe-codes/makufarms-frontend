@@ -8,6 +8,7 @@
 
 *{
     scroll-behavior: smooth;
+    font-family: "Inter", serif;
 }
 
 
@@ -38,3 +39,5 @@
       transform: translateY(0);
     }
   }
+
+
