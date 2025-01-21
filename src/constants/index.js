@@ -7,16 +7,16 @@ export const navigationLinks = [
     {
         id:1,
         title: 'About',
-        url: '/about'
+        url: 'about'
     },
     {
         id:2,
         title: 'Services',
-        url: '/services'
+        url: 'services'
     },
     {
         id:3,
         title: 'Contact',
-        url: '/contact'
+        url: 'contact'
     }
 ]
