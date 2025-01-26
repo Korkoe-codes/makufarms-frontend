@@ -51,7 +51,7 @@ const Header = () => {
 
       {/* Mobile Dropdown Navigation */}
       <div
-        className={`${openNavigation ? 'block' : 'hidden'} min-w-32 my-8 top-20 right-0 absolute bg-white shadow-lg rounded-lg z-20`}
+        className={`${openNavigation ? 'block' : 'hidden'} min-w-32 my-8 top-20 right-0 absolute bg-white shadow-lg rounded-lg z-40`}
       >
         <ul className='list-none flex flex-col justify-end items-center lg:px-6 flex-1'>
           {navigationLinks.map((nav, index) => (
