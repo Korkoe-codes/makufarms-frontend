@@ -1,22 +1,50 @@
-import { hero1 } from "../assets"
+// import { useState, useEffect } from "react";
+import Images from "../assets/index";
+import Slider from "./Slider";
 
 const Hero = () => {
   return (
-    <section className={`flex md:flex-row flex-col sm:py-16 py-6`} id="home">
-        {/* <div className="flex-1 flex-col flex justify-center items-start xl:px-0 sm:px-16 px-6"> */}
-            <div className="flex flex-row items-center justify-center m-auto py-2 px-4 rounded-xl">
-                <div className="w-1/2">
-                  <img src={hero1} alt="" className=""/>
-                </div>
-                <div className="flex w-1/2 flex-col items-center gap-y-4">
-                  <h1 className="text-xl font-semibold">Empowering Communities Through Sustainable Agriculture in Asutuare</h1>
-                  <h3 className="">Transforming agriculture to improve livelihoods and foster resilience in Asutuare, Ghana.</h3>
-                  <button className="border p-4 mx-auto">Learn More</button>
-                </div>
-            </div>
-        {/* </div> */}
-    </section>
-  )
-}
+    <div className="bg-teal-100 w-full m-auto overflow-hidden flex flex-col lg:flex-row items-center justify-center">
+      {/* Slider */}
+      <div className="lg:w-1/2 relative">
+        <Slider autoslide={true}>
+          {Images.map((image) => (
+            <img
+              src={image}
+              key={image}
+              className="object-cover"
+            />
+          ))}
+        </Slider>
 
-export default Hero
+        {/* Mobile Content */}
+        <div className="absolute top-0 left-0 w-full h-full flex lg:hidden text-white text-center flex-col items-center justify-center z-30 bg-black bg-opacity-5 backdrop-blur-[1.5px]">
+          <h1 className="text-xl font-semibold px-4">
+            Empowering Communities Through Sustainable Agriculture in Asutuare
+          </h1>
+          <h3 className="mt-2 px-4">
+            Transforming agriculture to improve livelihoods and foster resilience
+            in Ghana.
+          </h3>
+          <button className="border p-2 rounded mx-auto mt-4">Learn More</button>
+        </div>
+      </div>
+
+      {/* Desktop Content */}
+      <div className="hidden lg:flex flex-col gap-5 text-center lg:w-1/2 lg:px-8">
+        <h1 className="text-xl font-semibold px-4">
+          Empowering Communities Through Sustainable Agriculture in Asutuare
+        </h1>
+        <h3 className="mt-2 px-4">
+          Transforming agriculture to improve livelihoods and foster resilience
+          in Ghana.
+        </h3>
+        <button className="border p-4 mx-auto bg-white bg-opacity-75 hover:bg-opacity-100 transition duration-300">
+          Learn More
+        </button>
+      </div>
+    </div>
+  );
+};
+
+export default Hero;
