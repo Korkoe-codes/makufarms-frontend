@@ -10,15 +10,22 @@ const Slider = ({ children: Images, autoslide = false, autoSlideInterval }) => {
 
   useEffect(() => {
     if (!autoslide) return;
-    const slideInterval = setInterval(next, autoSlideInterval || 3000);
+    const slideInterval = setInterval(next, autoSlideInterval || 4000);
     return () => clearInterval(slideInterval);
-  }, []);
+  }, [autoslide, autoSlideInterval]);
 
   return (
-    <div className="overflow-hidden">
-      <div className="flex transition-transform ease-in duration-500" style={{ transform: `translateX(-${currentImageIndex * 100}%)` }}>
-        {Images}
-      </div>
+    <div className="overflow-hidden lg:rounded-[35%_65%_49%_51%_/_73%_23%_77%_27%] relative w-full h-full">
+      {Images.map((image, index) => (
+        <div
+          key={index}
+          className={`absolute inset-0 w-full h-full transition-opacity duration-1000 ease-in-out ${
+            index === currentImageIndex ? 'opacity-100' : 'opacity-0'
+          }`}
+        >
+          {image}
+        </div>
+      ))}
     </div>
   );
 };

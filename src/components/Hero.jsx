@@ -1,4 +1,3 @@
-// import { useState, useEffect } from "react";
 import Images from "../assets/index";
 import Slider from "./Slider";
 
@@ -6,13 +5,14 @@ const Hero = () => {
   return (
     <div className="bg-teal-100 w-full m-auto overflow-hidden flex flex-col lg:flex-row items-center justify-center">
       {/* Slider */}
-      <div className="lg:w-1/2 relative">
+      <div className="lg:w-1/2 relative h-[300px] lg:h-[500px] w-full">
         <Slider autoslide={true}>
           {Images.map((image) => (
             <img
               src={image}
               key={image}
-              className="object-cover"
+              className="w-full h-full object-cover"
+              alt="Slider Image"
             />
           ))}
         </Slider>

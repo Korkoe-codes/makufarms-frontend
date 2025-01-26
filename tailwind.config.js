@@ -5,8 +5,14 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      transitionProperty: {
+        'opacity': 'opacity',
+      },
+      transitionDuration: {
+        '1000': '1000ms',
+      },
+    },
   },
   plugins: [],
-}
-
+};
