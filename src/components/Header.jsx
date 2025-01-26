@@ -61,7 +61,7 @@ const Header = () => {
             >
               <a
                 href={`#${nav.url}`}
-                className="decoration-2 hover:underline underline-offset-8 text-slate-600 hover:text-yellow-500 text-semibold md:text-lg transition duration-200"
+                className="decoration-2 hover:underline underline-offset-8 text-slate-600 hover:text-yellow-500 text-semibold md:text-lg transition duration-300"
               >
                 {nav.title}
               </a>

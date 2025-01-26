@@ -18,7 +18,7 @@ const Hero = () => {
         </Slider>
 
         {/* Mobile Content */}
-        <div className="absolute top-0 left-0 w-full h-full flex lg:hidden text-white text-center flex-col items-center justify-center z-30 bg-black bg-opacity-5 backdrop-blur-[1.5px]">
+        <div className="absolute top-0 left-0 w-full h-full flex lg:hidden text-white text-center flex-col items-center justify-center z-30 bg-black bg-opacity-5 backdrop-blur-sm">
           <h1 className="text-xl font-semibold px-4">
             Empowering Communities Through Sustainable Agriculture in Asutuare
           </h1>
