@@ -22,7 +22,7 @@ const Header = () => {
           >
             <a
               href={`#${nav.url}`}
-              className="decoration-2 hover:underline underline-offset-8 text-slate-600 hover:text-yellow-500 text-semibold transition duration-200"
+              className="decoration-2 hover:underline underline-offset-8 text-green-600 hover:text-yellow-500 text-semibold text-lg transition duration-200"
             >
               {nav.title}
             </a>
