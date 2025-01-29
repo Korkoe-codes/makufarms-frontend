@@ -3,7 +3,7 @@ const Footer = () => {
   return (
     <div className="w-full bg-teal-100 mb-0 p-10 flex justify-around items-center">
       <div className="">
-        <img src={Logo} className="w-1/4" />
+        <img src={Logo} className="w-1/2 lg:w-1/4" />
       </div>
       <div className="flex gap-10">
         <div className="flex flex-col gap-2">
