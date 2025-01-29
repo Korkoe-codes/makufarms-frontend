@@ -1,4 +1,4 @@
-import Images from "../assets/index";
+import HeroImages from "../assets/index";
 import Slider from "./Slider";
 
 const Hero = () => {
@@ -7,7 +7,7 @@ const Hero = () => {
       {/* Slider */}
       <div className="lg:w-2/5 relative h-[300px] lg:h-[500px] w-full">
         <Slider autoslide={true}>
-          {Images.map((image) => (
+          {HeroImages.map((image) => (
             <img
               src={image}
               key={image}
@@ -31,15 +31,15 @@ const Hero = () => {
       </div>
 
       {/* Desktop Content */}
-      <div className="hidden lg:flex flex-col text-green-600 gap-4 text-center lg:w-1/2 lg:px-10">
-        <h1 className="text-4xl font-bold px-4">
+      <div className="hidden lg:flex flex-col  gap-4 text-center lg:w-1/2 lg:px-10">
+        <h1 className="text-4xl text-green-600 font-bold px-4">
           Empowering Communities Through Sustainable Agriculture
         </h1>
         <h3 className="mt-2 text-base font-medium px-4">
           Transforming agriculture to improve livelihoods and foster resilience
           in Ghana.
         </h3>
-        <button className="px-3 py-2 font-medium hover:text-[#3B5A51] hover:bg-[#E9AF5D] mx-auto text-white bg-green-500 rounded-xl bg- bg-opacity-75  transition duration-300">
+        <button className="px-3 py-2 font-medium hover:text-[#3B5A51] hover:bg-amber-300 mx-auto text-white bg-green-500 rounded-xl bg- bg-opacity-75  transition duration-300">
           Learn More
         </button>
       </div>

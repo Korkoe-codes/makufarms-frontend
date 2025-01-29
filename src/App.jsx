@@ -14,6 +14,15 @@ function App() {
     </div>
 
 
+    <div className="lg:mx-auto w-full">
+      <About/>
+    </div>
+
+    <div className="lg:mx-auto w-full">
+      <Footer/>
+    </div>
+
+
     </div>
   )
 }
