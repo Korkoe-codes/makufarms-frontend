@@ -21,9 +21,9 @@ const About = () => {
         <div className="lg:w-1/2 lg:static">
         <img src={founderImage} alt="" className="w-full lg:rounded-full rounded-e-3xl" />
         </div>
-        <div className="flex flex-col lg:w-1/2 justify-center items-center lg:static backdrop-blur-md p-4 lg:px-0 lg:text-slate-900 text-white bottom-0 absolute gap-4">
+        <div className="flex flex-col lg:w-1/2 justify-center items-center lg:static backdrop-blur-md p-2 lg:px-0 lg:text-slate-900 text-white bottom-0 absolute gap-4">
         <h1 className="text-xl font-bold ">About the Founder</h1>
-        <p className="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente quaerat magnam dolorem ullam aspernatur ex voluptas quia quasi exercitationem, odit accusamus nisi! Officia, et nihil? Adipisci ad a at excepturi?</p>
+        <p className="text-justify text-sm lg:text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente quaerat magnam dolorem ullam aspernatur ex voluptas quia quasi exercitationem, odit accusamus nisi! Officia, et nihil? Adipisci ad a at excepturi?</p>
         </div>
       </aside>
       
