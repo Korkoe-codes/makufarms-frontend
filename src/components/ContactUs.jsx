@@ -28,13 +28,13 @@ const ContactUs = () => {
                 <label htmlFor="name" className="font-normal">Message</label>
                 <textarea name="" placeholder="Message" className="h-20 resize-none p-4 rounded-lg outline-none" id=""></textarea>
             </div>
-            <label htmlFor="consent" className="flex items-center text-base font-normal">
+            <label htmlFor="consent" className="flex items-center lg:text-base font-normal text-sm">
 
                 <input type="checkbox" name="consent" id="consent" className="mr-2" />
                 I agree to receive emails from MakuFarms, and also accept the Privacy / Cookie Policy
             </label>
             <div className="flex flex-col flex-grow w-full justify-center items-center">
-                <button className="w-1/4 p-2 rounded-xl bg-yellow-400 capitalize">submit enquiry</button>
+                <button className="lg:w-1/4 w-1/2 p-2 rounded-xl bg-yellow-400 capitalize">submit enquiry</button>
             </div>
         </form>
       
