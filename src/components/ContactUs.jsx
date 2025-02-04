@@ -4,7 +4,7 @@ const ContactUs = () => {
     <div className="flex lg:flex-row flex-col bg-teal-50 w-full items-center justify-center gap-10 p-10" id="contact">
         <aside className="flex flex-col w-full lg:items-start justify-start lg:w-1/2 gap-4">
             <h1 className="text-2xl font-extrabold">Contact Us</h1>
-            <p className="text-lg font-normal capitalize">if you have a question about who we are and what we do, we will be more than happy to answer any and all of your questions.</p>
+            <p className="text-lg font-normal capitalize">if you have a question about who we are and what we do, we are more than happy to answer any and all of your questions.</p>
             <button className="p-3 bg-yellow-400 rounded-xl capitalize px-4">frequently asked questions</button>
         </aside>
         <form action="" className="flex lg:w-1/2 w-full items-end flex-wrap gap-4">
