@@ -8,7 +8,7 @@ const About = () => {
       <aside className="lg:flex w-3/4 m-auto justify-center lg:p-40 lg:gap-4 lg:static relative">
 
         <div className="lg:w-1/2 lg:static">
-        <img src={founderImage} alt="" className="w-full lg:rounded-full rounded-e-3xl" />
+        <img src={founderImage} alt="" className="w-full rounded-ss-3xl" />
         </div>
         <div className="flex flex-col lg:w-1/2 justify-center items-center lg:static backdrop-blur-md p-2 lg:px-0 lg:text-slate-900 text-white bottom-0 absolute gap-2">
         <h1 className="text-xl font-bold ">About the Founder</h1>

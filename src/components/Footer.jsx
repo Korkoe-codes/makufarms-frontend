@@ -8,8 +8,9 @@ const Footer = () => {
       <div className="flex gap-10">
         <div className="flex flex-col gap-2">
           <h1 className="text-green-800 text-lg font-bold">Quick Links</h1>
+          <a href="#" className="font-normal text-slate-700 hover:text-yellow-500">Home</a>
           <a href="#about" className="font-normal text-slate-700 hover:text-yellow-500">About</a>
-          <a href="#services" className="font-normal text-slate-700 hover:text-yellow-500">Progress</a>
+          <a href="#progress" className="font-normal text-slate-700 hover:text-yellow-500">Progress</a>
           <a href="#contact" className="font-normal text-slate-700 hover:text-yellow-500">Contact</a>
         </div>
         <div className="flex flex-col gap-2">
