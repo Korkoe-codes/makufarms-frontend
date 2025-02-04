@@ -1,4 +1,4 @@
-import {Header, About, Hero, Footer} from './components';
+import {Header, About, Hero, Footer, Progress} from './components';
 
 function App() {
 
@@ -17,6 +17,14 @@ function App() {
     <div className="lg:mx-auto w-full">
       <About/>
     </div>
+
+    
+
+    <div className="lg:mx-auto w-full">
+      <Progress/>
+    </div>
+
+
 
     <div className="lg:mx-auto w-full">
       <Footer/>

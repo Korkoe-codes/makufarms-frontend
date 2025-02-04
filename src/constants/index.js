@@ -11,8 +11,8 @@ export const navigationLinks = [
     },
     {
         id:2,
-        title: 'Services',
-        url: 'services'
+        title: 'Progress',
+        url: 'progress'
     },
     {
         id:3,
