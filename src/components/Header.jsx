@@ -1,4 +1,4 @@
-import Logo from '../assets/logo.png';
+import Logo from '../assets/logo2.png';
 import { navigationLinks } from '../constants';
 import { useState } from 'react';
 

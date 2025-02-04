@@ -1,4 +1,4 @@
-import Logo from '../assets/logo.png';
+import Logo from '../assets/logo2.png';
 const Footer = () => {
   return (
     <div className="w-full mb-0 p-10 flex justify-around items-center">
