@@ -9,6 +9,8 @@ import sdg2 from './SDG-icons/sdg2.png'
 import sdg8 from './SDG-icons/sdg8.png'
 import sdg12 from './SDG-icons/sdg12.png'
 import sdg13 from './SDG-icons/sdg13.png'
+
+
 import progress1 from './Progress/progress1.jpg'
 import progress2 from './Progress/progress2.jpg'
 import progress3 from './Progress/progress3.jpg'

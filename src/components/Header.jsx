@@ -1,4 +1,4 @@
-import Logo from '../assets/logo2.png';
+import logos from '../assets/logos/index';
 import { navigationLinks } from '../constants';
 import { useState } from 'react';
 
@@ -11,7 +11,7 @@ const Header = () => {
 
   return (
     <nav className='w-full flex lg:px-64 lg:w-full justify-between items-center'>
-      <img src={Logo} className='w-28' alt="" />
+      <img src={logos[2]} className='w-16' alt="" />
 
       {/* Desktop Navigation */}
       <ul className='list-none sm:flex z-10 md:hidden lg:flex hidden justify-end items-center lg:px-6 flex-1 '>
