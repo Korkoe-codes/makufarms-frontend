@@ -3,9 +3,9 @@ import Slider from "./Slider";
 
 const Hero = () => {
   return (
-    <div className=" w-full m-auto overflow-hidden flex flex-col lg:flex-row items-center justify-center">
+    <div className=" w-full m-auto container overflow-hidden flex bg flex-col lg:flex-row items-center justify-center">
       {/* Slider */}
-      <div className="lg:w-2/5 relative h-[300px] lg:h-[500px] w-full">
+      <div className=" relative h-[600px] my-4 w-full">
         <Slider autoslide={true}>
           {HeroImages.map((image) => (
             <img
@@ -31,18 +31,28 @@ const Hero = () => {
       </div>
 
       {/* Desktop Content */}
-      <div className="hidden lg:flex flex-col  gap-4 text-center lg:w-1/2 lg:px-10">
-        <h1 className="text-4xl text-green-600 font-bold px-4">
+      <section className="hidden lg:flex bg-[#E6E6E9]/50 lg:px-5 rounded-lg py-4 bottom-1/4 left-20 lg:w-1/4 absolute">
+      <div className="lg:flex flex-col gap-4 text-center">
+        <h1 className="text-4xl text-[#01A85A] font-bold px-4">
           Empowering Communities Through Sustainable Agriculture
         </h1>
-        <h3 className="mt-2 text-base font-medium px-4">
+        <h3 className="mt-2 text-base font-medium text-white px-4">
           Transforming agriculture to improve livelihoods and foster resilience
           in Ghana.
         </h3>
-        <button className="px-3 py-2 font-medium hover:text-[#3B5A51] hover:bg-amber-300 mx-auto text-white bg-green-500 rounded-xl bg- bg-opacity-75  transition duration-300">
+
+        <div className="flex justify-between px-10">
+        
+        <a className="px-3 py-2 font-medium hover:text-[#3B5A51] hover:bg-amber-300 text-white bg-green-500 rounded-xl bg- bg-opacity-75  transition duration-300" type="button" 
+         href="#contact"
+        >Contact Us</a>
+        <button className=" hover:text-[#F9A635] rounded-full p-2">
           Learn More
         </button>
+
+        </div>
       </div>
+      </section>
     </div>
   );
 };

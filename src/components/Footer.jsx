@@ -2,10 +2,10 @@ import logos from '../assets/logos/index';
 const Footer = () => {
   return (
     <section className="w-full bg-[#0b132b]">
-        <footer className="container mb-0 p-10 flex mx-auto  w-full justify-between">
+        <footer className="container mb-0 p-10 flex mx-auto items-center w-full justify-between">
           
       <div className="w-1/3">
-        <img src={logos[2]} className="w-full lg:w-1/6" />
+        <img src={logos[2]} className="w-1/2  lg:w-1/6" />
       </div>
       <div className="flex gap-10">
         <div className="flex flex-col gap-2">

@@ -15,7 +15,7 @@ const Slider = ({ children: Images, autoslide = false, autoSlideInterval }) => {
   }, [autoslide, autoSlideInterval]);
 
   return (
-    <div className="overflow-hidden lg:rounded-[35%_65%_49%_51%_/_73%_23%_77%_27%] relative w-full h-full">
+    <div className="overflow-hidden rounded-xl relative w-full h-full">
       {Images.map((image, index) => (
         <div
           key={index}

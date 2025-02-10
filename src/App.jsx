@@ -4,14 +4,13 @@ function App() {
   return (
     <div className="w-full overflow-hidden flex flex-col">
 
-      <div className="w-full">
+      <div className="w-full ">
             <Header />
       </div>
 
-    <div className="lg:mx-auto w-full">
-      <Hero/>
-    </div>
-
+      <div className="lg:mx-auto   w-full">
+  <Hero />
+</div>
 
     <div className="lg:mx-auto w-full">
       <About/>
@@ -25,7 +24,7 @@ function App() {
 
     
 
-    <div className="lg:mx-auto w-full">
+    <div className="lg:mx-auto container w-full">
       <ContactUs/>
     </div>
 

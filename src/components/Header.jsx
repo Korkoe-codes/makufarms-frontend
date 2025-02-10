@@ -10,7 +10,7 @@ const Header = () => {
   };
 
   return (
-    <nav className='w-full flex lg:px-64 lg:w-full justify-between items-center'>
+    <nav className='w-full flex bg-[#E6E6E9] container mx-auto rounded-lg mt-3 lg:px-64 lg:w-full justify-between shadow-xl items-center'>
       <img src={logos[2]} className='w-16' alt="" />
 
       {/* Desktop Navigation */}
@@ -51,17 +51,18 @@ const Header = () => {
 
       {/* Mobile Dropdown Navigation */}
       <div
-        className={`${openNavigation ? 'block' : 'hidden'} min-w-32 my-8 top-20 right-0 absolute bg-white shadow-lg rounded-lg z-40`}
+        className={`${openNavigation ? 'block' : 'hidden'} min-w-full mt-3 py-4 top-20 right-0 absolute bg-white shadow-lg rounded-lg z-40`}
       >
-        <ul className='list-none flex flex-col justify-end items-center lg:px-6 flex-1'>
+        <ul className='list-none flex flex-col justify-end items-left w-full flex-1'>
           {navigationLinks.map((nav, index) => (
             <li
-              className={`font-normal cursor-pointer ${index === navigationLinks.length - 1 ? 'mr-0' : 'mb-4'}`}
+              className={`font-normal cursor-pointer w-full px-4 ${index === navigationLinks.length - 1 ? 'mr-0' : 'mb-4'}`}
               key={nav.id}
             >
               <a
                 href={`#${nav.url}`}
-                className="decoration-2 hover:underline underline-offset-8 text-slate-600 hover:text-yellow-500 text-semibold md:text-lg transition duration-300"
+                className="decoration-2 hover:underline w-full underline-offset-8 text-[#0b132b] hover:text-yellow-500  text-semibold md:text-lg transition duration-300"
+                onClick={toggleNavigation}
               >
                 {nav.title}
               </a>
