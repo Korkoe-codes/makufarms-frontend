@@ -10,8 +10,8 @@ const Header = () => {
   };
 
   return (
-    <nav className='w-full flex bg-[#E6E6E9] container mx-auto rounded-lg mt-3 lg:px-64 lg:w-full justify-between shadow-xl items-center'>
-      <img src={logos[2]} className='w-16' alt="" />
+    <nav className='w-full flex bg-white/60 container mx-auto rounded-lg mt-3 lg:w-full lg:justify-center justify-between shadow-xl lg:px-5 items-center'>
+      <img src={logos[2]} className='w-16 p-1' alt="" />
 
       {/* Desktop Navigation */}
       <ul className='list-none sm:flex z-10 md:hidden lg:flex hidden justify-end items-center lg:px-6 flex-1 '>
@@ -22,7 +22,7 @@ const Header = () => {
           >
             <a
               href={`#${nav.url}`}
-              className="decoration-2 hover:underline underline-offset-8 text-green-600 hover:text-yellow-500 text-semibold text-lg transition duration-200"
+              className="decoration-2 hover:underline underline-offset-8 text-[#0b132b] lg:text-xl hover:text-[#ca054d] text-semibold text-lg transition duration-200"
             >
               {nav.title}
             </a>

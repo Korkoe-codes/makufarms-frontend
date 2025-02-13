@@ -6,17 +6,20 @@ const About = () => {
     <div className="w-full flex flex-col gap-4 lg:px-0" id="about">
       
 
-      <section className="flex flex-wrap justify-evenly lg:flex-row gap-6">
-        <div className="lg:w-1/3 w-full p-10 lg:space-y-4">
+      <section className="flex flex-col lg:p-20 container w-full mx-auto  gap-6">
+        <div className="lg:w-1/3 w-full  lg:space-y-4">
           <h1 className="font-bold text-2xl">About the Project</h1>
           <p className="font-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia explicabo, id fugit maxime reiciendis assumenda in accusamus rem minima? Mollitia sapiente, natus illo ut repudiandae sunt ex nemo nihil culpa?</p>
         </div>
 
-        <Card image_path={aboutImage} direction={'reverse'} title={"Focus"} description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. A, esse."/>
-        <Card image_path={aboutImage2} direction={'reverse'} title={"Focus"} description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. A, esse."/>
-        <Card image_path={aboutImage} direction={'normal'} title={"Focus"} description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. A, esse."/>
-        <Card image_path={aboutImage2} title={"Focus"} direction={'normal'} description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. A, esse."/>
-        <Card image_path={aboutImage} direction={'reverse'} title={"Focus"} description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. A, esse."/>
+
+    <aside className="flex flex-wrap gap-4 justify-between gap-y-10 w-full">
+        <Card image_path={aboutImage}  title={"Rice Processing & Milling"} description="Providing local farmers with milling services to process paddy into polished rice." location={"North Tongu, Volta"}/>
+        <Card image_path={aboutImage2}  title={"Focus"} description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. A, esse."/>
+        <Card image_path={aboutImage}  title={"Focus"} description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. A, esse."/>
+        <Card image_path={aboutImage2} title={"Focus"}  description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. A, esse."/>
+
+    </aside>
       </section>
 
     <SdgSlider />

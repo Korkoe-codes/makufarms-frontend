@@ -1,17 +1,19 @@
 import PropTypes from 'prop-types';
-export const Card = ({ image_path, title, description,direction }) => {
+export const Card = ({ image_path, title, description, location }) => {
 
-    const isReverse = direction === 'reverse' ? 'lg:flex-row-reverse lg:flex-row flex-col flex text-right w-full items-center lg:w-1/3 gap-2 shadow-sm bg-teal-50 rounded-lg p-10' : 'lg:flex-row flex-col flex w-full lg:w-1/3 gap-2 items-center shadow-sm bg-teal-50 rounded-lg p-10';
+    // const isReverse = direction === 'reverse' ? 'lg:flex-row-reverse lg:flex-row flex-col flex text-right w-full items-center lg:w-1/3 gap-2 shadow-sm bg-teal-50 rounded-lg p-10' : 'lg:flex-row flex-col flex w-full lg:w-1/3 gap-2 items-center shadow-sm bg-teal-50 rounded-lg p-10';
 
 
   return (
-    <div className={isReverse}>
+    <div className='lg:flex-row flex-col flex w-full lg:w-2/3 gap-2 items-center shadow-sm bg-teal-50 rounded-lg p-10'>
       <div className="lg:w-1/2">
         <img src={image_path} alt="" className="rounded-lg" />
       </div>
-      <div className="flex flex-col lg:w-1/2  lg:items-center text-left justify-center gap-2 lg:gap-4">
-        <h1 className="font-semibold text-lg">{title}</h1>
-        <p className="text-sm lg:text-base font-normal lg:text-center">{description}</p>
+      <div className="flex flex-col lg:w-1/2  lg:items-center text-right justify-center gap-2 lg:gap-4">
+        <h1 className="font-semibold text-lg text-right">{title}</h1>
+        {/* <h3 className="">{date}</h3> */}
+        <p className="text-sm lg:text-base font-normal lg:text-right">{description}</p>
+        <p className="">Location {location}</p>
       </div>
     </div>
   )
@@ -21,7 +23,7 @@ export const Card = ({ image_path, title, description,direction }) => {
 Card.propTypes = {
     image_path: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
+    location: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired,
-    direction:PropTypes.oneOf(['reverse', 'normal']).isRequired,
     // lgDirection:PropTypes.oneOf(['reverse', 'normal']).isRequired,
   };
