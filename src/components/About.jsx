@@ -24,7 +24,7 @@ const About = () => {
               To revolutionize agriculture by constructing state-of-the-art greenhouses for vegetable production and developing a modern rice mill, ensuring high-quality, sustainable food production for local and international markets.
               </p>
             </div>
-            <div className="rounded-xl shadow-lg p-4 lg:h-[250px] xl:h-[300px] lg:w-1/4 flex flex-col gap-1">
+            <div className="rounded-xl shadow-lg p-4 h-fit lg:h-[300px] xl:h-[300px] lg:w-1/4 flex flex-col gap-1">
               <img src={gifs[1]} alt="" className="w-20 h-20 mx-auto" />
               <h2 className="lg:text-2xl font-semibold">Our Vision</h2>
               <p className="lg:text-lg font-medium">
