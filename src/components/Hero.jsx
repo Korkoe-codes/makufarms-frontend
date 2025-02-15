@@ -39,8 +39,8 @@ const Hero = () => {
           </h3>
 
           <div className="flex-row lg:space-x-3 space-x-2 px-4 pt-5">
-          <a href="#contact" className="lg:p-5 lg:w-36 p-3 text-base text-green-400 rounded-md bg-white "> Contact Us</a>
-            <a href="#about" className="lg:p-5 w-36 p-3 text-base text-white rounded-md bg-green-400"> Read more</a>
+          <a href="#contact" className="lg:p-5 lg:w-36 p-3 text-base text-green-400 hover:text-white transition-color duration-200 rounded-md bg-white hover:bg-[#0B132B]"> Contact Us</a>
+            <a href="#about" className="lg:p-5 w-36 p-3 text-base text-white rounded-md bg-green-400 hover:bg-[#F9A635] transition-all hover:text-[#131515]"> Read more</a>
           </div>
         </div>
     </div>

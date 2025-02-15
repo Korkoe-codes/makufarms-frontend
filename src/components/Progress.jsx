@@ -9,7 +9,7 @@ const Progress = () => {
           <img
             src={progressImgs[0]}
             alt="Placeholder 1"
-            className="w-full h-full object-cover rounded-lg"
+            className="w-full h-full transform transition-all ease-in hover:scale-110 duration-150 object-cover rounded-lg"
           />
         </div>
         {/* Image 4 */}
@@ -17,7 +17,7 @@ const Progress = () => {
           <img
             src={progressImgs[3]}
             alt="Placeholder 4"
-            className="w-full h-full object-cover rounded-lg"
+            className="w-full h-full transform transition-all ease-in hover:scale-110 duration-150 object-cover rounded-lg overflow-auto"
           />
         </div>
                 {/* Image 3 */}
@@ -25,7 +25,7 @@ const Progress = () => {
           <img
             src={progressImgs[2]}
             alt="Placeholder 3"
-            className="w-full h-full object-cover rounded-lg"
+            className="w-full h-full transform transition-all ease-in hover:scale-110 duration-150 object-cover rounded-lg overflow-auto"
           />
         </div>
         {/* Image 6 */}
@@ -33,7 +33,7 @@ const Progress = () => {
           <img
             src={progressImgs[5]}
             alt="Placeholder 6"
-            className="w-full h-full object-cover rounded-lg"
+            className="w-full h-full transform transition-all ease-in hover:scale-110 duration-150 object-cover rounded-lg overflow-auto"
           />
         </div>
         {/* Image 2 */}
@@ -41,7 +41,7 @@ const Progress = () => {
           <img
             src={progressImgs[1]}
             alt="Placeholder 2"
-            className="w-full h-full object-cover rounded-lg"
+            className="w-full h-full transform transition-all ease-in hover:scale-110 duration-150 object-cover rounded-lg overflow-auto"
           />
         </div>
         {/* Image 7 */}
@@ -49,7 +49,7 @@ const Progress = () => {
           <img
             src={progressImgs[6]}
             alt="Placeholder 7"
-            className="w-full h-full object-cover rounded-lg"
+            className="w-full h-full transform transition-all ease-in hover:scale-110 duration-150 object-cover rounded-lg overflow-auto"
           />
         </div>
 
