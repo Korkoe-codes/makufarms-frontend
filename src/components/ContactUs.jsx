@@ -3,8 +3,8 @@ const ContactUs = () => {
   return (
     <div className="flex lg:flex-row flex-col bg-teal-50 w-full items-center justify-center gap-10 p-10" id="contact">
         <aside className="flex flex-col w-full lg:items-start justify-start lg:w-1/2 gap-4">
-            <h1 className="text-2xl font-extrabold">Contact Us</h1>
-            <p className="text-lg font-normal capitalize">if you have a question about who we are and what we do, we are more than happy to answer any and all of your questions.</p>
+            <h1 className="lg:text-2xl text-lg  font-extrabold">Contact Us</h1>
+            <p className="lg:text-lg text-xs font-normal capitalize">if you have a question about who we are and what we do, we are happy to answer any questions.</p>
             <button className="p-3 bg-yellow-400 rounded-xl capitalize px-4">frequently asked questions</button>
         </aside>
         <form action="" className="flex lg:w-1/2 w-full items-end flex-wrap gap-4">
@@ -28,7 +28,7 @@ const ContactUs = () => {
                 <label htmlFor="name" className="font-normal">Message</label>
                 <textarea name="" placeholder="Message" className="h-20 resize-none p-4 rounded-lg outline-none" id=""></textarea>
             </div>
-            <label htmlFor="consent" className="flex items-center lg:text-base font-normal text-sm">
+            <label htmlFor="consent" className="flex items-center lg:text-base font-normal text-xs">
 
                 <input type="checkbox" name="consent" id="consent" className="mr-2" />
                 I agree to receive emails from MakuFarms, and also accept the Privacy / Cookie Policy

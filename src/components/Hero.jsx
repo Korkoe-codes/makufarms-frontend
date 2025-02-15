@@ -28,7 +28,7 @@ const Hero = () => {
       </header>
 
 
-        <div className="absolute lg:top-1/4 top-1/3  p-0 lg:w-1/3 lg:flex h-screen lg:flex-col bottom-0 w-2/3 w-1/2 lg:p-5 lg:left-10">
+        <div className="absolute lg:top-1/4 top-1/3  p-0 lg:w-1/3 lg:flex h-screen lg:flex-col bottom-0 w-full md:w-2/3 lg:p-5 lg:left-10">
         <h1 className="text-3xl lg:text-5xl font-bold text-[#E6E6E9] px-4">
             Empowering Communities Through Sustainable Agriculture
           </h1>
@@ -39,8 +39,8 @@ const Hero = () => {
           </h3>
 
           <div className="flex-row lg:space-x-3 space-x-2 px-4 pt-5">
-          <button className="lg:p-5 p-3 text-base text-green-400 rounded-md bg-white "> Contact Us</button>
-            <button className="lg:p-5 p-3 text-sm text-white rounded-md bg-green-400"> Read more</button>
+          <a href="#contact" className="lg:p-5 lg:w-36 p-3 text-base text-green-400 rounded-md bg-white "> Contact Us</a>
+            <a href="#about" className="lg:p-5 w-36 p-3 text-base text-white rounded-md bg-green-400"> Read more</a>
           </div>
         </div>
     </div>

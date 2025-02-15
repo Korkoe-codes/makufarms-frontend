@@ -15,9 +15,9 @@ const SdgSlider = () => {
   return (
     <div>
       <section className="lg:hidden flex flex-col gap-4 justify-between">
-        <div className="w-full p-10">
-          <h1 className="font-bold text-2xl">Sustainable Development Goals</h1>
-          <p className="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia explicabo, id fugit maxime reiciendis assumenda in accusamus rem minima? </p>
+        <div className="w-full p-5">
+          <h1 className="font-bold text-xl lg:text-4xl">Sustainable Development Goals</h1>
+          <p className="text-xs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia explicabo, id fugit maxime reiciendis assumenda in accusamus rem minima? </p>
         </div>
         <div className="w-fit flex overflow-hidden">
           <div 
@@ -35,10 +35,10 @@ const SdgSlider = () => {
           </div>
         </div>
       </section>
-      <section className="hidden w-full my-4 space-y-4 lg:flex flex-col justify-center">
+      <section className="hidden w-full my-4 space-y-4 lg:flex gap-2 flex-col justify-center">
       <div className="w-1/3 mx-auto text-center flex flex-col gap-4 items-center">
-          <h1 className="font-bold text-2xl">Sustainable Development Goals</h1>
-          <p className="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia explicabo, id fugit maxime reiciendis assumenda in accusamus rem minima? </p>
+          <h1 className="font-bold text-4xl">Sustainable Development Goals</h1>
+          <p className="text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia explicabo, id fugit maxime reiciendis assumenda in accusamus rem minima? </p>
         </div>
         <div className="flex w-full mx-auto justify-center gap-4">
             {sdgImages.map((image, index) => (
@@ -46,7 +46,7 @@ const SdgSlider = () => {
                 src={image} 
                 key={index} 
                 alt={`SDG ${index + 1}`} 
-                className="w-1/12"
+                className="w-1/12 rounded-xl"
                 />
             ))}
         </div>

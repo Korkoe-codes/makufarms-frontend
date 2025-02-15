@@ -9,6 +9,9 @@ import sdg2 from './SDG-icons/sdg2.png'
 import sdg8 from './SDG-icons/sdg8.png'
 import sdg12 from './SDG-icons/sdg12.png'
 import sdg13 from './SDG-icons/sdg13.png'
+import ourVision from './our-vision.gif'
+import ourMission from './our-mission.gif'
+import ourGoals from './our-goals.gif'
 
 
 import progress1 from './Progress/progress1.jpg'
@@ -26,6 +29,13 @@ export const heroImages = [
     hero3,
 
 ];
+
+
+export const gifs =[
+    ourMission,
+    ourVision,
+    ourGoals
+]
 
 
 export const sdgImages = [
