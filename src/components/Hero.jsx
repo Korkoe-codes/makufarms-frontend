@@ -18,7 +18,7 @@ const Hero = () => {
 
 
 
-      <header className="absolute top-0 left-0 w-full hidden lg:flex justify-between items-center p-6 z-10">
+      <header className="absolute top-0 left-0 w-full hidden lg:flex justify-between items-center py-6 z-10">
         <Header />
       </header>
 
