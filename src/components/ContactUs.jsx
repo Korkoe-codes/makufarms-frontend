@@ -1,20 +1,19 @@
 
 const ContactUs = () => {
   return (
-    <div className="flex lg:flex-row flex-col bg-teal-50 w-full items-center justify-center gap-10 p-10" id="contact">
+    <div className="flex lg:flex-row flex-col bg-gradient-to-bl from-[#01A85A] to-[#08453b] w-full items-center justify-center gap-10 p-10" id="contact">
         <aside className="flex flex-col w-full lg:items-start justify-start lg:w-1/2 gap-4">
-            <h1 className="lg:text-2xl text-lg  font-extrabold">Contact Us</h1>
+            <h1 className="lg:text-4xl text-lg  font-extrabold">Get in Touch</h1>
             <p className="lg:text-lg text-xs font-normal capitalize">if you have a question about who we are and what we do, we are happy to answer any questions.</p>
+            <div className="flex gap-4">
+                
+            </div>
             <button className="p-3 bg-yellow-400 rounded-xl capitalize px-4">frequently asked questions</button>
         </aside>
         <form action="" className="flex lg:w-1/2 w-full items-end flex-wrap gap-4">
             <div className="flex flex-col flex-grow w-full lg:basis-1/3 gap-2">
-                <label htmlFor="name" className="font-normal">First Name *</label>
-                <input type="text" placeholder="John" className="py-4 px-10 w-full rounded-lg outline-none" />
-            </div>
-            <div className="flex flex-col flex-grow w-full lg:basis-1/3 gap-2">
-                <label htmlFor="name" className="font-normal">Last Name *</label>
-                <input type="text" placeholder="Doe" className="py-4 px-10 w-full rounded-lg outline-none" />
+                <label htmlFor="name" className="font-normal">Your Name *</label>
+                <input type="text" placeholder="John Doe" className="py-4 px-10 w-full rounded-lg outline-none" />
             </div>
             <div className="flex flex-col gap-2 flex-grow w-full lg:basis-1/3   ">
                 <label htmlFor="phone" className="font-normal">Phone Number*</label>

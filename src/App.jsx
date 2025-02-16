@@ -24,7 +24,7 @@ function App() {
 
     
 
-    <div className="lg:mx-auto container w-full">
+    <div className="lg:mx-auto w-full">
       <ContactUs/>
     </div>
 
