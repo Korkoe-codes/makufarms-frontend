@@ -28,7 +28,7 @@ const Hero = () => {
       </header>
 
 
-        <div className="absolute lg:top-1/4 container top-1/3  p-0 lg:w-1/3 lg:flex h-screen lg:flex-col bottom-0 w-full md:w-2/3 lg:p-5 lg:left-10">
+        <div className="absolute lg:top-1/4 container top-1/3  p-0 lg:w-1/3 lg:flex h-screen lg:flex-col bottom-0 w-full md:w-2/3 lg:p-5 lg:left-10 xl:left-24">
         <h1 className="text-3xl lg:text-5xl font-bold text-[#E6E6E9] px-4">
             Empowering Communities Through Sustainable Agriculture
           </h1>

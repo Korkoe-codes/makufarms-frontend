@@ -6,9 +6,8 @@ const ContactUs = () => {
             <h1 className="lg:text-4xl text-lg  font-extrabold">Get in Touch</h1>
             <p className="lg:text-lg text-xs font-normal capitalize">if you have a question about who we are and what we do, we are happy to answer any questions.</p>
             <div className="flex gap-4">
-                
+    
             </div>
-            <button className="p-3 bg-yellow-400 rounded-xl capitalize px-4">frequently asked questions</button>
         </aside>
         <form action="" className="flex lg:w-1/2 w-full items-end flex-wrap gap-4">
             <div className="flex flex-col flex-grow w-full lg:basis-1/3 gap-2">
