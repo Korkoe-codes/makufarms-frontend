@@ -16,22 +16,22 @@ const About = () => {
             At Maku Farms, we’re committed to transforming the agricultural landscape through innovative and sustainable practices. Our mission, vision, and goals are centered on empowering farmers, enhancing food security, and driving economic growth. Together, we’re cultivating a brighter future for agriculture and communities.
             </p>
           </div>
-          <div className="flex lg:flex-row flex-col justify-evenly gap-4 items-center ">
-          <div className="rounded-xl shadow-lg p-4  transform hover:scale-110 ease-in-out transition-all h-fit lg:min-h-[250px] lg:max-h-[300px] xl:h-[400px] lg:w-1/4 flex flex-col gap-1">
+          <div className="flex lg:flex-row flex-col justify-evenly lg:gap-4 items-center gap-8 ">
+          <div className="rounded-xl shadow-lg p-10 w-3/4 lg:p-4  transform hover:scale-110 ease-in-out transition-all h-fit lg:min-h-[250px] lg:max-h-[300px] xl:h-[400px] lg:w-1/4 flex flex-col gap-1">
               <img src={gifs[0]} alt="" className="w-24 h-24 mx-auto" />
               <h2 className="lg:text-2xl font-semibold">Our Mission</h2>
               <p className="lg:text-lg font-medium">
               To revolutionize agriculture by constructing state-of-the-art greenhouses for vegetable production and developing a modern rice mill, ensuring high-quality, sustainable food production for local and international markets.
               </p>
             </div>
-            <div className="rounded-xl shadow-lg p-4  transform hover:scale-110 ease-in-out transition-all h-fit lg:min-h-[250px] lg:max-h-[300px] xl:h-[400px] lg:w-1/4 flex flex-col gap-1">
+            <div className="rounded-xl shadow-lg p-10 w-3/4 lg:p-4  transform hover:scale-110 ease-in-out transition-all h-fit lg:min-h-[250px] lg:max-h-[300px] xl:h-[400px] lg:w-1/4 flex flex-col gap-1">
               <img src={gifs[1]} alt="" className="w-20 h-20 mx-auto" />
               <h2 className="lg:text-2xl font-semibold">Our Vision</h2>
               <p className="lg:text-lg font-medium">
               To lead the way in sustainable farming by leveraging the fertile lands of the Kpong Irrigation Scheme, creating a model for eco-friendly agricultural practices that inspire and empower future generations.
               </p>
             </div>
-            <div className="rounded-xl shadow-lg p-4  transform hover:scale-110 ease-in-out transition-all h-fit lg:min-h-[250px] lg:max-h-[300px] xl:h-[400px] lg:w-1/4 flex flex-col gap-1">
+            <div className="rounded-xl shadow-lg p-10 w-3/4 lg:p-4  transform hover:scale-110 ease-in-out transition-all h-fit lg:min-h-[250px] lg:max-h-[300px] xl:h-[400px] lg:w-1/4 flex flex-col gap-1">
               <img src={gifs[2]} alt="" className="w-24 h-24 mx-auto" />
               <h2 className="lg:text-2xl font-semibold">Our Goals</h2>
               <p className="lg:text-lg font-medium">

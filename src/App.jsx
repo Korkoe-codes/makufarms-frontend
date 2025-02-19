@@ -8,7 +8,7 @@ function App() {
             <Header />
       </div> */}
 
-      <div className="lg:mx-auto h-full  w-full">
+      <div className="lg:mx-auto h-full w-full">
   <Hero />
 </div>
 

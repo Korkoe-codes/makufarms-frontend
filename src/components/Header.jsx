@@ -10,10 +10,10 @@ const Header = () => {
   };
 
   return (
-    <nav className='w-full flex bg-white/60 container mx-auto rounded-lg mt-3 lg:w-full lg:justify-center justify-between shadow-xl lg:px-5 items-center'>
-      <div className="flex gapa-1 items-center">
-      <img src={logos[2]} className='w-16 p-1' alt="" />
-        <h3 className="lg:text-lg text-base font-medium">Maku Farms</h3>
+    <nav className='w-full flex bg-black/50 lg:bg-white/50 container mx-auto rounded-lg mt-3 lg:w-full lg:justify-center justify-between p-2 shadow-xl lg:px-5 items-center'>
+      <div className="flex gap-1 items-center">
+      <img src={logos[2]} className='w-12 p-1' alt="" />
+        <h3 className="lg:text-lg text-base text-white font-medium">Maku Farms</h3>
       </div>
 
       {/* Desktop Navigation */}
@@ -40,14 +40,14 @@ const Header = () => {
       >
         {!openNavigation ? (
           <div className="flex flex-col items-center gap-y-2">
-            <span className="w-10 h-1 rounded-lg bg-slate-600"></span>
-            <span className="w-8 h-1 rounded-lg bg-slate-600"></span>
-            <span className="w-10 h-1 rounded-lg bg-slate-600"></span>
+            <span className="w-10 h-1 rounded-lg bg-white"></span>
+            <span className="w-8 h-1 rounded-lg bg-white"></span>
+            <span className="w-10 h-1 rounded-lg bg-white"></span>
           </div>
         ) : (
           <div className="flex flex-col gap-y-1">
-            <span className="w-10 h-1 transform rotate-45 bg-slate-600 rounded-lg"></span>
-            <span className="w-10 h-1 transform -rotate-45 bg-slate-600 rounded-lg"></span>
+            <span className="absolute w-7 h-1 transform rotate-45 bg-white rounded-lg"></span>
+            <span className="w-7 h-1 transform -rotate-45  bg-white rounded-lg"></span>
           </div>
         )}
       </button>
