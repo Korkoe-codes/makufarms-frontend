@@ -12,6 +12,7 @@ import sdg13 from './SDG-icons/sdg13.png'
 import ourVision from './our-vision.gif'
 import ourMission from './our-mission.gif'
 import ourGoals from './our-goals.gif'
+import upArrow from './learn-more.svg'
 
 
 import progress1 from './Progress/progress1.jpg'
@@ -22,6 +23,10 @@ import progress5 from './Progress/progress5.jpg'
 import progress6 from './Progress/progress6.jpg'
 import progress7 from './Progress/progress7.jpg'
 
+
+export const misc = [
+    upArrow
+]
 
 export const heroImages = [
     hero1,

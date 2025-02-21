@@ -10,10 +10,13 @@ const Header = () => {
   };
 
   return (
-    <nav className='w-full flex bg-black/50 lg:bg-white/50 container mx-auto rounded-lg mt-3 lg:w-full lg:justify-center justify-between p-2 shadow-xl lg:px-5 items-center'>
-      <div className="flex gap-1 items-center">
-      <img src={logos[2]} className='w-12 p-1' alt="" />
-        <h3 className="lg:text-lg text-base text-white font-medium">Maku Farms</h3>
+    <nav className='w-full flex bg-black/50 container mx-auto rounded-full mt-3 lg:w-full lg:justify-center justify-between p-2 shadow-xl  items-center'>
+      <div className="flex gap-3 items-center">
+      <div className=" bg-white rounded-full p-1">
+      <img src={logos[2]} className='lg:w-14 lg:h-14 w-11 h-11 p-1' alt="" />
+
+      </div>
+        <h3 className="lg:text-2xl lg:font-bold text-xl text-white font-medium">Maku Farms</h3>
       </div>
 
       {/* Desktop Navigation */}
@@ -25,7 +28,7 @@ const Header = () => {
           >
             <a
               href={`#${nav.url}`}
-              className="decoration-2 hover:underline underline-offset-8 text-[#0b132b] lg:text-xl hover:text-[#ca054d] text-semibold text-lg transition duration-200"
+              className="hover:font-semibold underline-offset-8 text-white/80 lg:text-xl hover:text-[#F9A635] text-semibold text-lg transition duration-200"
             >
               {nav.title}
             </a>
@@ -39,10 +42,10 @@ const Header = () => {
         onClick={toggleNavigation}
       >
         {!openNavigation ? (
-          <div className="flex flex-col items-center gap-y-2">
-            <span className="w-10 h-1 rounded-lg bg-white"></span>
-            <span className="w-8 h-1 rounded-lg bg-white"></span>
-            <span className="w-10 h-1 rounded-lg bg-white"></span>
+          <div className="flex flex-col w-7 h-6 items-center gap-y-2">
+            <span className="w-full h-full rounded-lg bg-white"></span>
+            <span className="w-2/3 h-full rounded-lg bg-white"></span>
+            <span className="w-full h-full rounded-lg bg-white"></span>
           </div>
         ) : (
           <div className="flex flex-col gap-y-1">
