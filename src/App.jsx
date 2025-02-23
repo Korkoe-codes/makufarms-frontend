@@ -1,4 +1,5 @@
 import {Header, About, Hero, Footer, Progress, ContactUs} from './components';
+import { useScroll } from 'motion/react';
 function App() {
 
   return (

@@ -1,5 +1,6 @@
 import {aboutImage, founderImage, gifs} from "../assets/index"
 import { Card } from "./Card"
+import { motion } from "framer-motion"
 import SdgSlider from "./SdgSlider"
 const About = () => {
   return (
@@ -58,16 +59,41 @@ const About = () => {
     <SdgSlider />
 
 
-    <aside className="lg:flex w-full lg:p-40 justify-between lg:static relative">
+    <motion.aside
+  initial={{ 
+    opacity: 0
+   }}
 
-<div className="w-fit">
+
+   whileInView={{ 
+    opacity:1,
+    scale: 1,
+    transition:{
+      duration: 3
+    }
+
+    }}
+    viewport={{ 
+      once:true,
+      amount: 0.5
+     }} 
+     >
+
+
+<div className="lg:flex w-full mx-auto lg:p-40 justify-between lg:static relative">
+  <div className="w-fit"
+
+
+>
 <img src={founderImage} alt="" className="lg:w-[500px] object-cover lg:h-[500px] lg:rounded-ss-3xl" />
 </div>
 <div className="flex flex-col justify-center items-center lg:static backdrop-blur-md p-2 lg:w-1/2 lg:px-0 lg:text-slate-900 text-white bottom-0 absolute gap-2"> 
 <h1 className="text-xl font-bold lg:text-4xl">About the Founder</h1>
 <p className="text-justify text-xs lg:text-base">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel voluptatem quam molestias voluptates officiis doloremque pariatur architecto nemo hic fugiat esse nisi necessitatibus qui adipisci, amet, perferendis illum cupiditate. Sed accusantium saepe ducimus velit voluptatum, fugit, atque dolore accusamus non impedit modi delectus, at cupiditate sunt beatae architecto laudantium nostrum.</p>
 </div>
-</aside>
+</div>
+
+</motion.aside>
       
     </div>
   )

@@ -1,10 +1,10 @@
 
 const ContactUs = () => {
   return (
-    <div className="flex lg:flex-row flex-col bg-gradient-to-bl from-[#01A85A] to-[#08453b] w-full items-center justify-center gap-10 p-10" id="contact">
+    <div className="flex lg:flex-row flex-col bg-gradient-to-bl from-[#01A85A] to-[#08453b] w-full items-center text-white justify-center gap-10 p-10" id="contact">
         <aside className="flex flex-col w-full lg:items-start justify-start lg:w-1/2 gap-4">
-            <h1 className="lg:text-4xl text-lg  font-extrabold">Get in Touch</h1>
-            <p className="lg:text-lg text-xs font-normal capitalize">if you have a question about who we are and what we do, we are happy to answer any questions.</p>
+            <h1 className="lg:text-8xl text-xl text-[#F9A635] font-extrabold">Get in Touch</h1>
+            <p className="lg:text-2xl text-xs font-normal capitalize">if you have a question about who we are and what we do, we are happy to answer any questions.</p>
             <div className="flex gap-4">
     
             </div>
@@ -32,7 +32,7 @@ const ContactUs = () => {
                 I agree to receive emails from MakuFarms, and also accept the Privacy / Cookie Policy
             </label>
             <div className="flex flex-col flex-grow w-full justify-center items-center">
-                <button className="lg:w-1/4 w-1/2 p-2 rounded-xl bg-yellow-400 capitalize">submit enquiry</button>
+                <button className="lg:w-1/4 w-1/2 p-2 rounded-xl bg-yellow-400 text-[#08453b] capitalize">submit enquiry</button>
             </div>
         </form>
       
