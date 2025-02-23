@@ -24,7 +24,7 @@ const Hero = () => {
       </header>
 
 
-      <motion.div  className="absolute top-80 left-0 w-full lg:flex justify-between items-center py-6 z-10">
+      <div  className="absolute top-80 left-0 w-full lg:flex justify-between items-center py-6 z-10">
       <div className="lg:px-28 mx-auto lg:mx-0 gap-10 leading-5 px-4 lg:flex h-screen lg:flex-col bottom-0 w-full lg:w-2/3">
         <h1 className="text-3xl lg:text-8xl font-bold text-[#E6E6E9]">
             Empowering Communities Through Sustainable Agriculture
@@ -46,7 +46,7 @@ const Hero = () => {
 
           </div>
         </div>
-      </motion.div>
+      </div>
 
 
       <header className="absolute top-0 left-0 w-full px-5 lg:hidden flex justify-normal  z-10">
