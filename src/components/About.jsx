@@ -56,7 +56,7 @@ const About = () => {
     </aside>
       </section>
 
-    <SdgSlider />
+    {/* <SdgSlider /> */}
 
 
     <motion.aside
