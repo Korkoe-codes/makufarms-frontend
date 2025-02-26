@@ -1,7 +1,7 @@
 import {aboutImage, founderImage, gifs} from "../assets/index"
 import { Card } from "./Card"
 import { motion } from "framer-motion"
-import SdgSlider from "./SdgSlider"
+import { sdgImages } from "../assets/index"
 const About = () => {
   return (
     <div className="w-full flex flex-col gap-5 lg:px-0" id="about">
@@ -58,6 +58,31 @@ const About = () => {
 
     {/* <SdgSlider /> */}
 
+
+<section className="grid lg:grid-cols-3 mx-auto md:grid-cols-2 w-full gap-5 lg:gap-10">
+  <div className="flex-col flex md:w-3/4 justify-center gap-2">
+    <h1 className="lg:text-7xl md:text-left text-center md:text-5xl text-lg font-bold">Cultivating a Sustainable Future</h1>
+    <p className="lg:text-2xl md:text-left text-center md:text-xl text-sm lg:font-semibold">Maku Farms is committed to advancing Sustainable Development Goals by promoting responsible farming practices that enhance food security, protect the environment, and uplift local communities. Through innovation and dedication, we aim to contribute to a healthier planet and a thriving agricultural ecosystem.</p>
+  </div>
+
+  <div className="lg:w-3/4">
+    <img src={ sdgImages[0] } alt="" className="rounded-lg" />
+  </div>
+  <div className="lg:w-3/4">
+    <img src={ sdgImages[1] } alt="" className="rounded-lg" />
+  </div>
+  <div className="lg:w-3/4">
+    <img src={ sdgImages[2] } alt="" className="rounded-lg" />
+  </div>
+  <div className="lg:w-3/4">
+    <img src={ sdgImages[3] } alt="" className="rounded-lg" />
+  </div>
+  <div className="lg:w-3/4">
+    <img src={ sdgImages[4] } alt="" className="rounded-lg" />
+  </div>
+
+
+</section>
 
     <motion.aside
   initial={{ 
