@@ -66,8 +66,8 @@ const About = () => {
 
 <section className="grid lg:grid-cols-3 mx-auto md:grid-cols-2 w-full gap-5 lg:gap-10">
   <div className="flex-col flex justify-center gap-2">
-    <h1 className="2xl:text-7xl md:text-left text-center md:text-4xl xl:text-6xl text-lg font-bold">Cultivating a Sustainable Future</h1>
-    <p className="lg:text-xl xl:text-lg md:text-left text-center  text-sm lg:font-medium">Maku Farms is committed to advancing Sustainable Development Goals by promoting responsible farming practices that enhance food security, protect the environment, and uplift local communities. Through innovation and dedication, we aim to contribute to a healthier planet and a thriving agricultural ecosystem.</p>
+    <h1 className="2xl:text-xs md:text-left text-center xl:text-3xl text-lg font-bold">Cultivating a Sustainable Future</h1>
+    <p className="lg:text-sm md:text-left text-center  text-sm lg:font-medium">Maku Farms is committed to advancing Sustainable Development Goals by promoting responsible farming practices that enhance food security, protect the environment, and uplift local communities. Through innovation and dedication, we aim to contribute to a healthier planet and a thriving agricultural ecosystem.</p>
   </div>
 
   <div className="">

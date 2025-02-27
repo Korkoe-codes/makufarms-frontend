@@ -25,7 +25,7 @@ function App() {
 
     
 
-    <div className="lg:mx-auto w-full">
+    <div className="lg:mx-auto xl:px-20 px-5 lg:px-10 w-full">
       <ContactUs/>
     </div>
 
