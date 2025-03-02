@@ -23,9 +23,9 @@ const Hero = () => {
       </header>
 
 
-      <div  className="absolute lg:top-60 top-1/2 2xl:top-80 left-0 w-full lg:flex justify-between items-center py-6 z-10">
-      <div className="lg:px-28 2xl:px-64 2xl:w-3/4 mx-auto lg:mx-0 gap-10 leading-5 px-4 lg:flex h-screen lg:flex-col bottom-0 w-full">
-        <h1 className="text-3xl lg:text-7xl 2xl:text-8xl font-bold text-[#E6E6E9]">
+      <div  className="absolute lg:top-60 top-80 2xl:top-80 left-0 w-full lg:flex justify-between items-center py-6 z-10">
+      <div className="lg:px-28 lg:w-full 2xl:px-64 2xl:w-3/4 mx-auto lg:mx-0 gap-10 leading-5 px-4 lg:flex h-screen lg:flex-col bottom-0 w-full">
+        <h1 className="text-3xl lg:text-4xl xl:text-6xl 2xl:text-8xl font-bold text-[#E6E6E9]">
         Empowering Communities Through Sustainable Agriculture
           </h1>
 
@@ -52,22 +52,7 @@ const Hero = () => {
         <Header/>
       </header>
 
-{/* 
-        <div className="container absolute mx-auto p-0 lg:flex h-screen lg:flex-col bottom-0 w-full  ">
-        <h1 className="text-3xl lg:text-5xl font-bold text-[#E6E6E9] px-4">
-            Empowering Communities Through Sustainable Agriculture
-          </h1>
 
-          <h3 className="mt-2 px-4 text-[#ffffff] text-pretty text-xl opacity-80  lg:w-1/2 font-medium">
-            Transforming agriculture to improve livelihoods and foster resilience
-            in Ghana.
-          </h3>
-
-          <div className="flex-row lg:space-x-3 space-x-2 px-4 pt-5">
-          <a href="#contact" className="lg:p-5 lg:w-36 p-3 text-base text-green-400 hover:text-white transition-color duration-200 rounded-md bg-white hover:bg-[#0B132B]"> Contact Us</a>
-            <a href="#about" className="lg:p-5 w-36 p-3 text-base text-white rounded-md bg-green-400 hover:bg-[#F9A635] transition-all hover:text-[#131515]"> Read more</a>
-          </div>
-        </div> */}
     </div>
   );
 };

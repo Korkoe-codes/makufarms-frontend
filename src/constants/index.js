@@ -14,9 +14,9 @@ export const navigationLinks = [
         title: 'Progress',
         url: 'progress'
     },
-    {
-        id:3,
-        title: 'Contact',
-        url: 'contact'
-    }
+    // {
+    //     id:3,
+    //     title: 'Contact',
+    //     url: 'contact'
+    // }
 ]

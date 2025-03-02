@@ -22,7 +22,7 @@ const About = () => {
           <div className="flex md:flex-row  md:flex-wrap lg:flex-nowrap w-full flex-col justify-between lg:gap-4 items-center gap-10  md:justify-evenly">
 
 
-          <div className="rounded-xl  lg:h-[400px] md:h-[350px] xl:h-[450px] 2xl:h-[350px] 2xl:p-10 shadow-lg p-10 md:p-5 w-full lg:p-4 2xl:gap-4 md:w-1/3 transform justify-center hover:scale-110 ease-in-out transition-all h-fit lg:w-1/4 flex flex-col gap-1">
+          <div className="rounded-xl  lg:h-[450px] md:h-[350px] xl:h-[500px] 2xl:h-[350px] 2xl:p-10 shadow-lg p-10 md:p-5 w-full lg:p-4 2xl:gap-4 md:w-1/3 transform justify-center hover:scale-110 ease-in-out transition-all h-fit lg:w-1/4 flex flex-col gap-1">
               <img src={gifs[0]} alt="" className="w-24 h-24 mx-auto" />
               <h2 className="lg:text-2xl 2xl:text-5xl text-xl font-semibold text-center lg:text-left">Our Mission</h2>
               <p className="lg:text-lg 2xl:text-2xl text-xs text-center lg:text-left font-medium">
