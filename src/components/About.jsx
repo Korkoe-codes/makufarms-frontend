@@ -130,14 +130,14 @@ const About = () => {
      >
 
 
-<div className="lg:flex w-full mx-auto md:bg-gradient-to-br from-lime-100 via-white to-emerald-100  lg:p-40 justify-between lg:static relative">
+<div className="md:flex block w-full mx-auto md:bg-gradient-to-br from-lime-100 via-white to-emerald-100  lg:p-40 md:p-20 lg:justify-between lg:static relative">
   <div className="w-fit"
 
 
 >
-<img src={founderImage} alt="" className="lg:w-[500px] object-cover lg:h-[500px] lg:rounded-ss-3xl" />
+<img src={founderImage} alt="" className="lg:w-[500px] object-cover md:w-1/2 md:mx-auto lg:h-[500px] md:rounded-ss-3xl" />
 </div>
-<div className="flex flex-col justify-center items-center lg:static backdrop-blur-md p-2 lg:w-1/2 lg:px-0 lg:text-slate-900 text-white bottom-0 absolute gap-2"> 
+<div className="flex flex-col justify-center items-center md:static backdrop-blur-md p-2 md:w-1/2 md:px-0 md:text-slate-900 text-white bottom-0  absolute gap-2"> 
 <h1 className="text-xl font-bold lg:text-4xl">About the Founder</h1>
 <p className="text-justify text-xs lg:text-base">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel voluptatem quam molestias voluptates officiis doloremque pariatur architecto nemo hic fugiat esse nisi necessitatibus qui adipisci, amet, perferendis illum cupiditate. Sed accusantium saepe ducimus velit voluptatum, fugit, atque dolore accusamus non impedit modi delectus, at cupiditate sunt beatae architecto laudantium nostrum.</p>
 </div>

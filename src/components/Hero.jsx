@@ -23,7 +23,7 @@ const Hero = () => {
       </header>
 
 
-      <div  className="absolute lg:top-60 top-80 2xl:top-80 left-0 w-full lg:flex justify-between items-center py-6 z-10">
+      <div  className="absolute lg:top-60  top-80 md:top-[40rem] 2xl:top-80 left-0 w-full lg:flex justify-between items-center py-6 z-10">
       <div className="lg:px-28 lg:w-full 2xl:px-64 2xl:w-3/4 mx-auto lg:mx-0 gap-10 leading-5 px-4 lg:flex h-screen lg:flex-col bottom-0 w-full">
         <h1 className="text-3xl lg:text-4xl xl:text-6xl 2xl:text-8xl font-bold text-[#E6E6E9]">
         Empowering Communities Through Sustainable Agriculture
