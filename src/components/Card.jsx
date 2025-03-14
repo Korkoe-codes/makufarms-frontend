@@ -5,16 +5,17 @@ export const Card = ({ image_path, title, description }) => {
 
 
   return (
-    <div className='lg:flex-row flex-col flex w-full gap-2 lg:gap-6 justify-center bg-teal-50 rounded-xl  p-10 '>
+    <div className='flex flex-col md:flex-row justify-between gap-10 w-full'>      
+      <div className="xl:w-1/3 w-full md:w-1/2">
+        <img src={image_path} alt="" className="w-full rounded-xl h-96 object-cover" />
+      </div>
 
-      <div className="flex flex-col lg:w-1/2 py-10 w-full lg:items-end` text-right justify-center gap-2 lg:gap-2">
-        <h1 className="font-semibold lg:text-3xl text-center lg:text-right">{title}</h1>
+      <div className="md:w-2/3 w-full">
+      <hr className=''/>
+        <h1 className="text-lg md:text-xl lg:text-3xl xl:text-5xl font-medium text-center md:text-left py-4">{title}</h1>
         {/* <h3 className="">{date}</h3> */}
-        <p className="text-xs lg:text-base text-center font-normal lg:text-right">{description}</p>
+        <p className="text-xs text-justify md:text-left md:text-sm lg:text-lg xl:text-xl">{description}</p>
 
-      </div>      
-      <div className="lg:w-1/3 w-full">
-        <img src={image_path} alt="" className="rounded-lg" />
       </div>
     </div>
   )
