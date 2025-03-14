@@ -1,8 +1,25 @@
-import {aboutImage, founderImage, gifs} from "../assets/index"
+import {aboutImage, founderImgs, gifs} from "../assets/index"
 import { Card } from "./Card"
-import { motion } from "framer-motion"
+import { AnimatePresence, motion } from "framer-motion"
 import { sdgImages } from "../assets/index"
+import { useEffect, useState } from "react"
 const About = () => {
+
+  const [currentImg, setCurrentImg] = useState(0);
+  const [direction, setDirection] = useState(1);
+
+
+
+
+  useEffect(()=>{
+    const interval =setInterval(()=>{
+      setDirection(1);
+      setCurrentImg((prev)=> (prev === 0 ? 1 : 0));
+    }, 5000);
+
+    return () => clearInterval(interval);
+  },[]);
+
   return (
     <div className="w-full md:gap-10 lg:gap-14 flex flex-col lg:px-28 px-10 md:px-16 xl:px-36 gap-10" id="about">
       
@@ -146,7 +163,16 @@ const About = () => {
 
 
 >
-<img src={founderImage} alt="" className=" object-cover rounded-xl md:w-full md:mx-auto md:rounded-ss-3xl" />
+  <AnimatePresence mode="wait">
+<motion.img 
+  key={currentImg}
+  initial={{ x: direction * 100, opacity: 0 }}
+  animate={{ x: 0, opacity: 1 }}
+  exit={{ x: -direction * 100, opacity: 0 }}
+  transition={{ duration: 0.8, ease: "easeInOut" }}
+src={founderImgs[currentImg]} alt="" className=" object-cover rounded-xl md:w-full md:mx-auto md:rounded-ss-3xl" />
+
+  </AnimatePresence>
 </div>
 <div className="flex flex-col md:w-1/2 justify-center p-5 md:p-0 absolute items-start md:static backdrop-blur-md  md:text-slate-900 text-white bottom-0 gap-2"> 
 <h1 className="text-xl font-bold lg:text-4xl">About the Founder</h1>

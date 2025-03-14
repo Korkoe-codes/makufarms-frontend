@@ -4,6 +4,7 @@ import hero3 from './hero3.jpg'
 import about from './about.webp'
 import about2 from './about.jpg'
 import founder from './founder.jpg'
+import founder2 from './founderProfessional.jpg'
 import sdg1 from './SDG-icons/sdg1.png'
 import sdg2 from './SDG-icons/sdg2.png'
 import sdg8 from './SDG-icons/sdg8.png'
@@ -66,6 +67,11 @@ export const progressImgs = [
 
 export const aboutImage = about;
 export const aboutImage2 = about2;
-export const founderImage = founder;
+// export const founderImage = founder;
+
+export const founderImgs = [
+    founder,
+    founder2
+];
 
 export default heroImages;
