@@ -3,7 +3,7 @@ const Progress = () => {
   return (
     <div className="w-full flex flex-col lg:px-28 px-10 md:px-16 xl:px-36 gap-10" id="progress">
         <h2 className="text-xl lg:text-3xl xl:text-5xl font-medium text-left lg:text-left">Where we are now.</h2>
-      <div className="grid gap-10 lg:gap-14 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full justifyt-evenly">
+      <div className="grid gap-10 lg:gap-14 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full justify-evenly">
         {/* Image 1 */}
         <div className="relative group aspect-square rounded-lg overflow-hidden">
           <img
