@@ -137,7 +137,7 @@ const About = () => {
 
 </section>
 
-    <motion.aside
+    {/* <motion.aside
   initial={{ 
     opacity: 0
    }}
@@ -155,7 +155,7 @@ const About = () => {
       once:true,
       amount: 0.5
      }} 
-     >
+     > */}
 
 
 <div className="w-full md:bg-gradient-to-br md:p-10 md:rounded-2xl from-lime-100 via-white to-emerald-100 flex md:gap-10 lg:static relative">
@@ -180,7 +180,7 @@ src={founderImgs[currentImg]} alt="" className=" object-cover rounded-xl md:w-fu
 </div>
 </div>
 
-</motion.aside>
+{/* </motion.aside> */}
       
     </div>
   )
