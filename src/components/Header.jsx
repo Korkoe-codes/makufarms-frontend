@@ -18,7 +18,7 @@ const Header = () => {
   };
 
   return (
-    <nav className="w-full flex bg-black/50 mx-auto rounded-full lg:w-full shadow-xl">
+    <nav className="w-full flex bg-black/50 mx-auto rounded-full lg:w-full lg:justify-center justify-between p-2 shadow-xl  items-center">
       <div className="flex gap-3 items-center">
         <div className="bg-white rounded-full p-1">
           <img src={logos[2]} className="lg:w-14 lg:h-14 w-11 h-11 p-1" alt="Logo" />
@@ -27,7 +27,7 @@ const Header = () => {
       </div>
 
       {/* Desktop Navigation */}
-      <ul className="">
+      <ul className="list-none sm:flex z-10 lg:z-10 md:hidden lg:flex hidden justify-end items-center lg:px-6 flex-1">
         {navigationLinks.map((nav, index) => (
           <li
             className={`font-normal cursor-pointer ${index === navigationLinks.length - 1 ? 'mr-0' : 'mr-10'}`}
@@ -35,7 +35,7 @@ const Header = () => {
           >
             <a
               href={`#${nav.url}`}
-              className=""
+              className="hover:font-semibold underline-offset-8 text-white/80 lg:text-xl hover:text-[#F9A635] text-semibold text-lg transition duration-200"
             >
               {nav.title}
             </a>

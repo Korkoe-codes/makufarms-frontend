@@ -17,14 +17,8 @@ const Hero = () => {
       </Slider>
 
 
-
-      <header className="w-full hidden lg:flex justify-between items-center">
-        <Header />
-      </header>
-
-
-      <div  className="absolute w-full lg:flex">
-      <div className="lg:w-full 2xl:w-3/4 leading-5 lg:flex h-screen lg:flex-col bottom-0 w-full">
+      <div  className="absolute w-full p-y-10 flex flex-col">
+      <div className="2xl:w-3/4 leading-5 flex h-screen flex-col top-10  w-full">
         <h1 className="text-3xl lg:text-4xl xl:text-6xl 2xl:text-8xl font-bold text-[#E6E6E9]">
         Empowering Communities Through Sustainable Agriculture
           </h1>

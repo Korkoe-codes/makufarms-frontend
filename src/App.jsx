@@ -1,8 +1,13 @@
-import {About, Hero, Footer, Progress, Header} from "./components";
+import {About, Hero, Footer, Progress, Home} from "./components";
 function App(){
     return (
-        <div className="space-y-10">
-           {/* <Hero/> */}
+        <div className="flex-col flex gap-10">
+            <div className="hidden">
+           <Hero/>
+            </div>
+            <div className="hidden lg:flex">
+                <Home />
+            </div>
           <About />
           <Progress/>
            <Footer/>

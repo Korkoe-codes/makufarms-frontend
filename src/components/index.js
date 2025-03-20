@@ -2,6 +2,7 @@ import About from "./About";
 import Footer from "./Footer";
 import Header from "./Header";
 import Hero from "./Hero";
+import Home from "./Home";
 import Progress from "./Progress";
 
 
@@ -9,6 +10,7 @@ export  {
     About,
     Footer,
     Header,
+    Home,
     Hero,
     Progress,
 };

@@ -15,11 +15,11 @@ const Slider = ({ children: Images, autoslide = false, autoSlideInterval = 4000 
   }, [autoslide, autoSlideInterval]);
 
   return (
-    <div className="relative w-full h-screen overflow-hidden">
+    <div className="relative lg:static w-full h-screen overflow-hidden">
       {Images.map((image, index) => (
         <div
           key={index}
-          className={`absolute inset-0 w-full h-full transition-opacity duration-1000 ease-in-out ${
+          className={`absolute inset-0 w-full transition-opacity duration-1000 ease-in-out ${
             index === currentImageIndex ? 'opacity-100' : 'opacity-0'
           }`}
         >
