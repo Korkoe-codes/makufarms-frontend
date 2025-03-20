@@ -12,7 +12,7 @@ const Home = () => {
 
       {/* Hero Text Section */}
       <section className="flex flex-col justify-center items-start lg:w-1/2 px-5 lg:px-20 z-10">
-        <h1 className="text-3xl lg:text-4xl xl:text-6xl 2xl:text-8xl font-bold text-[#E6E6E9]">
+        <h1 className="lg:text-2xl xl:text-6xl 2xl:text-8xl font-bold text-[#E6E6E9]">
           Empowering Communities Through Sustainable Agriculture
         </h1>
 
