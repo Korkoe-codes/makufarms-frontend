@@ -19,7 +19,7 @@ const Hero = () => {
 
       <div  className="absolute w-full p-y-10 flex flex-col">
       <div className="2xl:w-3/4 leading-5 flex h-screen flex-col top-10  w-full">
-        <h1 className="text-3xl lg:text-4xl xl:text-6xl 2xl:text-8xl font-bold text-[#E6E6E9]">
+        <h1 className="text-3xl lg:text-2xl xl:text-6xl 2xl:text-8xl font-bold text-[#E6E6E9]">
         Empowering Communities Through Sustainable Agriculture
           </h1>
 
