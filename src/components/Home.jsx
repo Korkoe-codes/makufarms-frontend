@@ -11,12 +11,12 @@ const Home = () => {
       </div>
 
       {/* Hero Text Section */}
-      <section className="flex flex-col justify-center items-start lg:w-1/2 px-5 lg:px-20 z-10">
+      <section className="flex flex-col justify-center items-start lg:w-full px-5 lg:px-20 z-10">
         <h1 className="lg:text-2xl xl:text-6xl 2xl:text-8xl font-bold text-[#E6E6E9]">
           Empowering Communities Through Sustainable Agriculture
         </h1>
 
-        <h3 className="mt-2 text-pretty md:text-2xl lg:text-3xl text-xl opacity-80 lg:w-2/3 font-medium">
+        <h3 className="mt-2 text-pretty md:text-2xl lg:text-3xl text-xl opacity-80 font-medium">
           Transforming agriculture to improve livelihoods and foster resilience in Ghana.
         </h3>
 
