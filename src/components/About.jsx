@@ -176,7 +176,7 @@ src={founderImgs[currentImg]} alt="" className=" object-cover rounded-xl min-h-f
 
   </AnimatePresence>
 </div>
-<div className="flex flex-col md:w-1/2 justify-center p-5 md:p-0 absolute items-start min-h-full md:static backdrop-blur-md  md:text-slate-900 text-white bottom-0 gap-2"> 
+<div className="flex flex-col md:w-1/2 justify-center p-5 md:p-0 absolute items-start  md:static backdrop-blur-md  md:text-slate-900 text-white bottom-0 gap-2"> 
 <h1 className="text-xl font-bold lg:text-4xl">About the Founder</h1>
 <p className="text-justify text-xs lg:text-base">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel voluptatem quam molestias voluptates officiis doloremque pariatur architecto nemo hic fugiat esse nisi necessitatibus qui adipisci, amet, perferendis illum cupiditate. Sed accusantium saepe ducimus velit voluptatum, fugit, atque dolore accusamus non impedit modi delectus, at cupiditate sunt beatae architecto laudantium nostrum.</p>
 </div>

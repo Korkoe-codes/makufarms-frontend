@@ -6,10 +6,9 @@ const Home = () => {
   return (
     <div className="w-full h-screen flex lg:flex-row relative">
 
-      <div className="absolute top-0 w-full lg:py-10 py-5 px-10 lg:px-20 z-10">
+      <header className="absolute top-0 w-full lg:py-10 py-5 px-10 lg:px-20 z-50">
         <Header />
-      </div>
-
+      </header>
 
       <section className="flex flex-col justify-center lg:static absolute z-20 bottom-0 top-0 items-start lg:w-full px-10 lg:px-20 lg:z-40">
         <h1 className="lg:text-5xl text-4xl xl:text-6xl 2xl:text-7xl font-bold text-[#E6E6E9]">
