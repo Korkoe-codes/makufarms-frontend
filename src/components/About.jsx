@@ -115,7 +115,7 @@ const About = () => {
   </div>
   
   <div className="">
-  <div className=" rounded-xl bg-[#8F1838] xl:w-full 2xl:w-fit xl:h-full flex justify-center">
+  <div className=" rounded-xl bg-[#8F1838] xl:w-full xl:h-full flex justify-center">
     <img src={ sdgImages[2] } width={200} alt="" className="rounded-lg object-cover xl:w-full" />
   </div>
 
