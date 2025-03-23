@@ -5,18 +5,18 @@ import Slider from "./Slider";
 const Home = () => {
   return (
     <div className="w-full h-screen flex lg:flex-row relative">
-      {/* Header */}
-      <div className="absolute w-full lg:py-10 lg:px-20 z-10">
+
+      <div className="absolute top-0 w-full lg:py-10 py-5 px-10 lg:px-20 z-10">
         <Header />
       </div>
 
-      {/* Hero Text Section */}
-      <section className="flex flex-col justify-center items-start lg:w-full px-5 lg:px-20 z-40">
-        <h1 className="lg:text-2xl xl:text-6xl 2xl:text-7xl font-bold text-[#E6E6E9]">
+
+      <section className="flex flex-col justify-center lg:static absolute z-20 bottom-0 top-0 items-start lg:w-full px-10 lg:px-20 lg:z-40">
+        <h1 className="lg:text-5xl text-4xl xl:text-6xl 2xl:text-7xl font-bold text-[#E6E6E9]">
           Empowering Communities Through Sustainable Agriculture
         </h1>
 
-        <h3 className="mt-2 text-pretty md:text-2xl lg:text-3xl text-xl opacity-80 font-medium">
+        <h3 className="mt-2 text-pretty md:text-3xl lg:text-4xl text-2xl opacity-80 font-semibold">
           Transforming agriculture to improve livelihoods and foster resilience in Ghana.
         </h3>
 
@@ -33,8 +33,8 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Slider Section */}
-      <aside className="lg:w-1/2 lg:h-full flex items-center justify-center">
+
+      <aside className="lg:w-1/2 lg:h-full h-screen w-full flex items-center justify-center">
         <Slider autoslide={true}>
           {HeroImages.map((image) => (
             <img

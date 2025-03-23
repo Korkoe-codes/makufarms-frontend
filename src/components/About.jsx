@@ -94,7 +94,7 @@ const About = () => {
     {/* <SdgSlider /> */}
 
 
-<section className="grid mx-auto md:grid-cols-2 xl:grid-cols-3 w-full gap-10 lg:gap-10">
+<section className="grid mx-auto md:grid-cols-2 lg:grid-cols-3 w-full gap-10 lg:gap-10">
   <div className="flex-col flex justify-center gap-2">
     <h1 className="text-lg md:text-2xl lg:text-3xl xl:text-5xl text-center md:text-start font-medium">Cultivating a Sustainable Future</h1>
     <p className="text-xs md:text-sm lg:text-base xl:text-lg md:text-left text-center">Maku Farms is committed to advancing Sustainable Development Goals by promoting responsible farming practices that enhance food security, protect the environment, and uplift local communities. Through innovation and dedication, we aim to contribute to a healthier planet and a thriving agricultural ecosystem.</p>
@@ -160,7 +160,7 @@ const About = () => {
      > */}
 
 
-<div className="w-full md:bg-gradient-to-br md:p-10 md:rounded-2xl from-lime-100 via-white to-emerald-100 flex md:gap-10 lg:static relative">
+<div className="w-full md:bg-gradient-to-br min-h-full md:p-10 md:rounded-2xl from-lime-100 via-white to-emerald-100 flex md:gap-10 lg:static relative">
   <div className="w-full md:w-1/3"
 
 
@@ -176,7 +176,7 @@ src={founderImgs[currentImg]} alt="" className=" object-cover rounded-xl md:w-fu
 
   </AnimatePresence>
 </div>
-<div className="flex flex-col md:w-1/2 justify-center p-5 md:p-0 absolute items-start md:static backdrop-blur-md  md:text-slate-900 text-white bottom-0 gap-2"> 
+<div className="flex flex-col md:w-1/2 justify-center p-5 md:p-0 absolute items-start min-h-full md:static backdrop-blur-md  md:text-slate-900 text-white bottom-0 gap-2"> 
 <h1 className="text-xl font-bold lg:text-4xl">About the Founder</h1>
 <p className="text-justify text-xs lg:text-base">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel voluptatem quam molestias voluptates officiis doloremque pariatur architecto nemo hic fugiat esse nisi necessitatibus qui adipisci, amet, perferendis illum cupiditate. Sed accusantium saepe ducimus velit voluptatum, fugit, atque dolore accusamus non impedit modi delectus, at cupiditate sunt beatae architecto laudantium nostrum.</p>
 </div>

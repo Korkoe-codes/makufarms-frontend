@@ -5,7 +5,7 @@ function App(){
             <div className="hidden">
            <Hero/>
             </div>
-            <div className="hidden lg:flex">
+            <div className="">
                 <Home />
             </div>
           <About />
