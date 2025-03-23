@@ -172,7 +172,7 @@ const About = () => {
   animate={{ x: 0, opacity: 1 }}
   exit={{ x: -direction * 100, opacity: 0 }}
   transition={{ duration: 0.8, ease: "easeInOut" }}
-src={founderImgs[currentImg]} alt="" className=" object-cover rounded-xl md:w-full md:mx-auto md:rounded-ss-3xl" />
+src={founderImgs[currentImg]} alt="" className=" object-cover rounded-xl min-h-full md:w-full md:mx-auto md:rounded-ss-3xl" />
 
   </AnimatePresence>
 </div>
