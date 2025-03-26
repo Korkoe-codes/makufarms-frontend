@@ -29,7 +29,7 @@ const Hero = () => {
           </h3>
 
           <div className="flex-row lg:space-x-3 flex space-x-2 w-full pt-5">
-          <a href="#contact" className="lg:p-5 xl:p-3 lg:w-fit p-3 text-lg text-[#0b132b] hover:text-white transition-color duration-200 rounded-xl bg-white hover:bg-[#0B132B]"> Contact Us</a>
+          <a href="#footer" className="lg:p-5 xl:p-3 lg:w-fit p-3 text-lg text-[#0b132b] hover:text-white transition-color duration-200 rounded-xl bg-white hover:bg-[#0B132B]"> Contact Us</a>
           <a href="#about" className="lg:p-5 xl:p-3 w-fit flex items-center gap-2 p-3 text-lg text-white rounded-xl bg-green-600 hover:bg-[#F9A635] transition-all hover:text-[#131515]"> 
     Read more
     <svg width="10" height="10" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">

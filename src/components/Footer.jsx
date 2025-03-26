@@ -1,7 +1,7 @@
 import logos from '../assets/logos/index';
 const Footer = () => {
   return (
-    <section className="w-full py-20 px-10 lg:py-48 md:py-32 md:px-16 lg:px-36 bg-[#0b132b]">
+    <section id="footer" className="w-full py-20 px-10 lg:py-48 md:py-32 md:px-16 lg:px-36 bg-[#0b132b]">
         <footer className="flex gap-5   w-full md:flex-row flex-col">
 
           <aside className="flex w-1/4 gap-5 justify-start items-start  xl:gap-10 flex-col">          

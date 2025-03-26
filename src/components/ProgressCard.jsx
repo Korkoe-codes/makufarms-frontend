@@ -37,7 +37,7 @@ const ProgressCard = ({
         <img
           src={image}
           alt={altText}
-          className="w-full h-full object-cover rounded-lg transition-transform duration-300 group-hover:scale-105"
+          className="w-full lg:h-full h-96 object-cover rounded-lg transition-transform duration-300 group-hover:scale-105"
         />
       </div>
       
