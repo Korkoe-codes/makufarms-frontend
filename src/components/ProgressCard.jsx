@@ -3,9 +3,9 @@ import PropTypes from "prop-types";
 
 const ProgressCard = ({ 
   image, 
-  altText, 
+  altText = "Image", // Default parameter instead of defaultProps
   description, 
-//   index 
+  index = 0  // Default parameter instead of defaultProps
 }) => {
   const [isDescriptionVisible, setIsDescriptionVisible] = useState(false);
   const cardRef = useRef(null);
@@ -68,18 +68,14 @@ const ProgressCard = ({
   );
 };
 
-// ✅ Add PropTypes for validation
+// Prop types validation remains the same
 ProgressCard.propTypes = {
-  image: PropTypes.string.isRequired, // Expecting a string (URL)
-  altText: PropTypes.string, // Optional string for alt text
-  description: PropTypes.string.isRequired, // Expecting a string
-  index: PropTypes.number // Optional index value (if used in a list)
+  image: PropTypes.string.isRequired,
+  altText: PropTypes.string,
+  description: PropTypes.string.isRequired,
+  index: PropTypes.number
 };
 
-// ✅ Default props for optional values
-ProgressCard.defaultProps = {
-  altText: "Image",
-  index: 0
-};
+// Remove the defaultProps definition completely
 
 export default ProgressCard;

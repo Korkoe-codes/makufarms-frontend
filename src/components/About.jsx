@@ -1,7 +1,10 @@
-import {aboutImage, founderImgs, gifs} from "../assets/index"
+import { founderImgs, gifs} from "../assets/index"
 import { Card } from "./Card"
 import { AnimatePresence, motion } from "framer-motion"
 import { sdgImages } from "../assets/index"
+// import Carousel from "./Carousel"
+
+import { aboutSlider } from "../assets";
 import { useEffect, useState } from "react"
 const About = () => {
 
@@ -43,6 +46,8 @@ const About = () => {
 
             <div className="flex gap-4 items-center">
               <img src={gifs[0]} alt="" className="w-24 h-24" />
+              
+ 
               <h2 className="text-xl lg:text-3xl xl:text-5xl font-medium text-center lg:text-left">Our Mission</h2>
 
             </div>
@@ -81,12 +86,12 @@ const About = () => {
 
 
     <aside className="flex flex-col gap-10 w-full">
-        <Card image_path={aboutImage}  title={"Why Asutuare?"} description="Asutuare was chosen as the starting hub for its unique agricultural advantage, sitting on the Kpong Irrigation Scheme, one of Ghana’s most fertile farming areas. The region’s well-developed irrigation infrastructure makes it ideal for rice cultivation and sustainable agriculture. With a rich history in farming and a strong agricultural community, Asutuare provides the perfect environment to establish a model farm that can drive food security and economic growth.
+        <Card image_path={aboutSlider}  title={"Why Asutuare?"} description="Asutuare was chosen as the starting hub for its unique agricultural advantage, sitting on the Kpong Irrigation Scheme, one of Ghana’s most fertile farming areas. The region’s well-developed irrigation infrastructure makes it ideal for rice cultivation and sustainable agriculture. With a rich history in farming and a strong agricultural community, Asutuare provides the perfect environment to establish a model farm that can drive food security and economic growth.
 
 "/>
-        <Card image_path={aboutImage}  title={"Securing the Land for Growth"} description="Maku Farms has successfully acquired a prime piece of land within the irrigation scheme, ensuring access to a reliable water source and the right conditions for high-yield farming. This land acquisition is a crucial step toward building a sustainable agribusiness that will serve as both a production site and a training ground for young farmers and entrepreneurs in the agricultural sector."/>
-        <Card image_path={aboutImage}  title={"Progress So Far"} description="Our journey is well underway, with significant milestones already achieved. The construction of the perimeter wall has been completed, securing the land and paving the way for infrastructure development. Soil testing and initial land preparations have been carried out to ensure optimal conditions for cultivation. These efforts mark the beginning of a structured, scalable agricultural project designed for long-term success."/>
-        <Card image_path={aboutImage} title={"The Vision for Full Utilization"}  description="The ultimate goal for Maku Farms is to establish a fully operational agricultural hub, integrating sustainable rice production, innovative farming practices, and agribusiness opportunities. Future plans include setting up modern storage facilities, processing units, and training programs to support the local farming community. Our vision is to create a self-sustaining ecosystem that enhances food production, generates employment, and promotes environmentally responsible farming."/>
+        <Card image_path={aboutSlider}  title={"Securing the Land for Growth"} description="Maku Farms has successfully acquired a prime piece of land within the irrigation scheme, ensuring access to a reliable water source and the right conditions for high-yield farming. This land acquisition is a crucial step toward building a sustainable agribusiness that will serve as both a production site and a training ground for young farmers and entrepreneurs in the agricultural sector."/>
+        <Card image_path={aboutSlider}  title={"Progress So Far"} description="Our journey is well underway, with significant milestones already achieved. The construction of the perimeter wall has been completed, securing the land and paving the way for infrastructure development. Soil testing and initial land preparations have been carried out to ensure optimal conditions for cultivation. These efforts mark the beginning of a structured, scalable agricultural project designed for long-term success."/>
+        <Card image_path={aboutSlider} title={"The Vision for Full Utilization"}  description="The ultimate goal for Maku Farms is to establish a fully operational agricultural hub, integrating sustainable rice production, innovative farming practices, and agribusiness opportunities. Future plans include setting up modern storage facilities, processing units, and training programs to support the local farming community. Our vision is to create a self-sustaining ecosystem that enhances food production, generates employment, and promotes environmentally responsible farming."/>
 
     </aside>
       </section>

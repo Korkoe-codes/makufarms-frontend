@@ -14,6 +14,8 @@ import ourVision from './our-vision.gif'
 import ourMission from './our-mission.gif'
 import ourGoals from './our-goals.gif'
 import upArrow from './learn-more.svg'
+import about1 from './about1.jpg'
+import about3 from './about2.jpg'
 
 
 import progress1 from './Progress/progress1.jpg'
@@ -24,6 +26,15 @@ import progress5 from './Progress/progress5.jpg'
 import progress6 from './Progress/progress6.jpg'
 import progress7 from './Progress/progress7.jpg'
 
+
+
+
+export const aboutSlider = [
+    about1,
+    about3,
+    about2,
+    about
+];
 
 export const misc = [
     upArrow
