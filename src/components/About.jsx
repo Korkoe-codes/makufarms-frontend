@@ -24,7 +24,7 @@ const About = () => {
   },[]);
 
   return (
-    <div className="w-full md:gap-10 lg:gap-14 flex flex-col lg:px-28 px-10 md:px-16 xl:px-36 gap-10" id="about">
+    <div className="w-full md:gap-10 lg:gap-14 flex flex-col mx-auto container gap-10" id="about">
       
 
       <section className="flex flex-col w-full  gap-10 lg:gap-20">
@@ -77,15 +77,9 @@ const About = () => {
             </div>
           </div>
         </div>
-        {/* <div className="w-full">
-          <h1 className="font-bold text-xl md:text-4xl text-center lg:text-left">About the Project</h1>
-          <p className="font-normal lg:text-lg text-xs text-justify">
-            Maku Farms is strategically located on the Kpong Irrigation Scheme, a fertile landscape renowned for its rice production and agricultural potential. Our vision is to create a thriving agribusiness that not only boosts local food production but also provides economic opportunities for young individuals and underserved communities.
-          Through sustainable farming practices, we are reimagining agriculture—reducing waste, improving soil health, and ensuring long-term productivity. Whether it’s through crop rotation, water-efficient irrigation, or organic soil management, we are committed to a farming approach that nurtures both the land and the people who depend on it.</p>
-        </div> */}
 
 
-    <aside className="flex flex-col gap-10 w-full">
+    <aside className="grid bg-gray-50 p-32 md:grid-cols-2 gap-10 lg:gap-24 w-full">
         <Card image_path={aboutSlider}  title={"Why Asutuare?"} description="Asutuare was chosen as the starting hub for its unique agricultural advantage, sitting on the Kpong Irrigation Scheme, one of Ghana’s most fertile farming areas. The region’s well-developed irrigation infrastructure makes it ideal for rice cultivation and sustainable agriculture. With a rich history in farming and a strong agricultural community, Asutuare provides the perfect environment to establish a model farm that can drive food security and economic growth.
 
 "/>
@@ -99,7 +93,7 @@ const About = () => {
     {/* <SdgSlider /> */}
 
 
-<section className="grid mx-auto md:grid-cols-2 lg:grid-cols-3 w-full gap-10 lg:gap-10">
+<section className="grid mx-auto bg-gradient-to-br md:rounded-2xl from-green-50 to-emerald-50 md:grid-cols-2 lg:grid-cols-3 w-full lg:p-24 p-10 gap-10 lg:gap-10">
   <div className="flex-col flex justify-center gap-2">
     <h1 className="text-lg md:text-2xl lg:text-3xl xl:text-5xl text-center md:text-start font-medium">Cultivating a Sustainable Future</h1>
     <p className="text-xs md:text-sm lg:text-base xl:text-lg md:text-left text-center">Maku Farms is committed to advancing Sustainable Development Goals by promoting responsible farming practices that enhance food security, protect the environment, and uplift local communities. Through innovation and dedication, we aim to contribute to a healthier planet and a thriving agricultural ecosystem.</p>
@@ -182,7 +176,7 @@ src={founderImgs[currentImg]} alt="" className=" object-cover rounded-xl min-h-f
   </AnimatePresence>
 </div>
 <div className="flex flex-col md:w-1/2 justify-center p-5 md:p-0 absolute items-start  md:static backdrop-blur-md  md:text-slate-900 text-white bottom-0 gap-2"> 
-<h1 className="text-xl font-bold lg:text-4xl">About the Founder</h1>
+<h1 className="text-lg md:text-2xl lg:text-3xl xl:text-5xl text-center md:text-start font-medium">About the Founder</h1>
 <p className="text-justify text-xs lg:text-base">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel voluptatem quam molestias voluptates officiis doloremque pariatur architecto nemo hic fugiat esse nisi necessitatibus qui adipisci, amet, perferendis illum cupiditate. Sed accusantium saepe ducimus velit voluptatum, fugit, atque dolore accusamus non impedit modi delectus, at cupiditate sunt beatae architecto laudantium nostrum.</p>
 </div>
 </div>

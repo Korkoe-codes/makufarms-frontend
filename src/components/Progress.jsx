@@ -37,7 +37,7 @@ const Progress = () => {
   ];
 
   return (
-    <div className="w-full md:gap-10 lg:gap-14 flex h-fit flex-col lg:px-28 px-10 md:px-16 xl:px-36 gap-10" id="progress">
+    <div className="w-full md:gap-10 lg:gap-14 flex h-fit flex-col mx-auto container gap-10" id="progress">
       <h1 className="text-xl lg:text-3xl xl:text-5xl font-medium text-left lg:text-left">Where we are now.</h1>
       
       <div className="grid lg:grid-cols-3 md:grid-cols-2 md:grid-row-3 lg:grid-rows-2 gap-10">
