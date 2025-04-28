@@ -4,6 +4,7 @@ import Header from "./Header";
 import Hero from "./Hero";
 import Home from "./Home";
 import Progress from "./Progress";
+import FounderSection from './FounderSection';
 
 
 export  {
@@ -13,4 +14,5 @@ export  {
     Home,
     Hero,
     Progress,
+    FounderSection,
 };

@@ -1,27 +1,13 @@
-import { founderImgs, gifs} from "../assets/index"
+import { gifs} from "../assets/index"
 import { Card } from "./Card"
-import { AnimatePresence, motion } from "framer-motion"
 import { sdgImages } from "../assets/index"
 // import Carousel from "./Carousel"
 
 import { aboutSlider } from "../assets";
-import { useEffect, useState } from "react"
+// import { useEffect, useState } from "react"
+import  FounderSection  from "./FounderSection";
 const About = () => {
 
-  const [currentImg, setCurrentImg] = useState(0);
-  const [direction, setDirection] = useState(1);
-
-
-
-
-  useEffect(()=>{
-    const interval =setInterval(()=>{
-      setDirection(1);
-      setCurrentImg((prev)=> (prev === 0 ? 1 : 0));
-    }, 5000);
-
-    return () => clearInterval(interval);
-  },[]);
 
   return (
     <div className="w-full md:gap-10 lg:gap-14 flex flex-col mx-auto container gap-10" id="about">
@@ -138,50 +124,9 @@ const About = () => {
 
 </section>
 
-    {/* <motion.aside
-  initial={{ 
-    opacity: 0
-   }}
 
 
-   whileInView={{ 
-    opacity:1,
-    scale: 1,
-    transition:{
-      duration: 3
-    }
-
-    }}
-    viewport={{ 
-      once:true,
-      amount: 0.5
-     }} 
-     > */}
-
-
-<div className="w-full md:bg-gradient-to-br min-h-full md:p-10 md:rounded-2xl from-lime-100 via-white to-emerald-100 flex md:gap-10 lg:static relative">
-  <div className="w-full md:w-1/3"
-
-
->
-  <AnimatePresence mode="wait">
-<motion.img 
-  key={currentImg}
-  initial={{ x: direction * 100, opacity: 0 }}
-  animate={{ x: 0, opacity: 1 }}
-  exit={{ x: -direction * 100, opacity: 0 }}
-  transition={{ duration: 0.8, ease: "easeInOut" }}
-src={founderImgs[currentImg]} alt="" className=" object-cover rounded-xl min-h-full md:w-full md:mx-auto md:rounded-ss-3xl" />
-
-  </AnimatePresence>
-</div>
-<div className="flex flex-col md:w-1/2 justify-center p-5 md:p-0 absolute items-start  md:static backdrop-blur-md  md:text-slate-900 text-white bottom-0 gap-2"> 
-<h1 className="text-lg md:text-2xl lg:text-3xl xl:text-5xl text-center md:text-start font-medium">About the Founder</h1>
-<p className="text-justify text-xs lg:text-base">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel voluptatem quam molestias voluptates officiis doloremque pariatur architecto nemo hic fugiat esse nisi necessitatibus qui adipisci, amet, perferendis illum cupiditate. Sed accusantium saepe ducimus velit voluptatum, fugit, atque dolore accusamus non impedit modi delectus, at cupiditate sunt beatae architecto laudantium nostrum.</p>
-</div>
-</div>
-
-{/* </motion.aside> */}
+    <FounderSection />
       
     </div>
   )
