@@ -26,7 +26,7 @@ const FounderInfo = () => {
         return () => clearInterval(timer);
     },[goToNext]);
   return (
-    <div className='relative h-[400px] md:h-[500px] lg:h-[550px] overflow-hidden rounded-tl-2xl rounded-bl-2xl'>
+    <div className='relative h-[400px] p-5 md:h-[500px] lg:h-[550px] overflow-hidden '>
       {/* <FaChevronRight /> */}
       {/* <FaChevronLeft /> */}
 
@@ -36,14 +36,14 @@ const FounderInfo = () => {
         src={founderImgs[currentImg]}
         alt='Founder Images'
         initial={{ opacity:0, x: direction * 70 }}
-        className="w-full h-full object-cover"
+        className="w-full h-full object-cover rounded-tl-2xl rounded-br-2xl"
         animate={{ opacity:1, x:0 }}
         exit={{ opacity: 0, x: -direction * 70 }}
         transition={{ duration: 0.7, ease: "easeInOut" }}
         />
     </AnimatePresence>
 
-    <div className="absolute inset-0 flex items-center justify-between p-4 z-10">
+    <div className="absolute inset-0 flex items-center justify-between p-5 z-10">
         <button 
         className="bg-white/30 backdrop-blur-md hover:bg-white/50 transition-colors rounded-full p-2 text-black"
         onClick={goToPrev}

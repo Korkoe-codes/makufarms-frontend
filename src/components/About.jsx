@@ -125,8 +125,10 @@ const About = () => {
 </section>
 
 
+<section className=" w-full">
 
     <FounderSection />
+</section>
       
     </div>
   )

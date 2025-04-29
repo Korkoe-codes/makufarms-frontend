@@ -5,7 +5,7 @@ const ProgressCard = ({
   image, 
   altText = "Image", // Default parameter instead of defaultProps
   description, 
-  index = 0  // Default parameter instead of defaultProps
+  // index = 0  // Default parameter instead of defaultProps
 }) => {
   const [isDescriptionVisible, setIsDescriptionVisible] = useState(false);
   const cardRef = useRef(null);

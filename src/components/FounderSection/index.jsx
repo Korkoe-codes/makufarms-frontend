@@ -3,7 +3,7 @@ import FounderInfo from './FounderInfo'
 
 const FounderSection = () => {
   return (
-    <section className="w-full container py-16">
+    <section className="w-full">
     <div className="">
         <div className="w-full bg-gradient-to-br from-lime-50 via-white to-emerald-50 
                     rounded-2xl shadow-sm overflow-hidden">

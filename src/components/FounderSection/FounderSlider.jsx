@@ -1,7 +1,7 @@
 
 const FounderSlider = () => {
   return (
-    <div className="flex lg:p-10 p-10 flex-col gap-6">
+    <div className="flex lg:p-16 p-10 flex-col gap-6">
     <h2 className="text-2xl md:text-3xl lg:text-5xl font-semibold text-gray-900">
       Meet Our Founder
     </h2>
