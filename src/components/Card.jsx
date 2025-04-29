@@ -14,7 +14,7 @@ export const Card = ({ image_path, title, description }) => {
             {image_path.map((photo, index) => (
               <img 
                 key={index}
-                src={photo} 
+                src={photo}   
                 alt={`Slide ${index + 1}`} 
                 className="w-full rounded-xl h-full object-cover" 
               />

@@ -16,7 +16,7 @@ const About = () => {
       <section className="flex flex-col w-full  gap-10 lg:gap-20">
 
 
-        <div className="w-full flex flex-col gap-5 md:gap-10 lg:gap-16">
+        <div className=" w-full lg:p-24 p-10 flex flex-col gap-5 md:gap-10 lg:gap-16">
           <div className="flex flex-col lg:w-3/5 mx-auto text-center  lg:gap-10 gap-4">
             <h1 className="text-xl font-semibold md:text-2xl lg:text-3xl xl:text-5xl lg:font-bold">Empowering Agriculture, Enriching Lives</h1>
             <p className="lg:text-lg text-sm lg:font-normal text-[#E25641]">
@@ -25,7 +25,7 @@ const About = () => {
 
             </p>
           </div>
-          <div className="flex md:flex-row md:gap-10 md:justify-between  md:flex-wrap xl:flex-nowrap w-full flex-col lg:gap-20">
+          <div className="flex  md:flex-row md:gap-10 md:justify-between  md:flex-wrap xl:flex-nowrap w-full flex-col lg:gap-20">
 
 
           <div className="rounded-xl md:w-2/5 lg:p-10 px-5 py-10  shadow-lg 2xl:gap-4 text-justify justify-center  flex flex-col gap-1">
@@ -65,7 +65,7 @@ const About = () => {
         </div>
 
 
-    <aside className="grid bg-gray-50 lg:p-32 md:grid-cols-2 gap-10 lg:gap-24 w-full">
+    <aside className="grid bg-gray-50 md:grid-cols-2 gap-10 lg:gap-24 w-full lg:p-24 p-10">
         <Card image_path={aboutSlider}  title={"Why Asutuare?"} description="Asutuare was chosen as the starting hub for its unique agricultural advantage, sitting on the Kpong Irrigation Scheme, one of Ghana’s most fertile farming areas. The region’s well-developed irrigation infrastructure makes it ideal for rice cultivation and sustainable agriculture. With a rich history in farming and a strong agricultural community, Asutuare provides the perfect environment to establish a model farm that can drive food security and economic growth.
 
 "/>
@@ -125,7 +125,7 @@ const About = () => {
 </section>
 
 
-<section className=" w-full">
+<section className="w-full">
 
     <FounderSection />
 </section>
