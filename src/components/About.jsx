@@ -65,7 +65,7 @@ const About = () => {
         </div>
 
 
-    <aside className="grid bg-gray-50 p-32 md:grid-cols-2 gap-10 lg:gap-24 w-full">
+    <aside className="grid bg-gray-50 lg:p-32 md:grid-cols-2 gap-10 lg:gap-24 w-full">
         <Card image_path={aboutSlider}  title={"Why Asutuare?"} description="Asutuare was chosen as the starting hub for its unique agricultural advantage, sitting on the Kpong Irrigation Scheme, one of Ghana’s most fertile farming areas. The region’s well-developed irrigation infrastructure makes it ideal for rice cultivation and sustainable agriculture. With a rich history in farming and a strong agricultural community, Asutuare provides the perfect environment to establish a model farm that can drive food security and economic growth.
 
 "/>

@@ -7,7 +7,7 @@ export const Card = ({ image_path, title, description }) => {
 
   return (
     <div className='flex flex-col lg:gap-10 w-full'>      
-      <div className="max-w-7xlmx-auto">
+      <div className="max-w-7xl mx-auto">
       <div className=" h-94  overflow-hidden">
         {isImageArray ? (
           <Carousel>
