@@ -7,7 +7,7 @@ export const Card = ({ image_path, title, description }) => {
 
   return (
     <div className='flex flex-col lg:gap-10 w-full'>      
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-xl w-full mx-auto">
       <div className=" h-94  overflow-hidden">
         {isImageArray ? (
           <Carousel>
@@ -16,7 +16,7 @@ export const Card = ({ image_path, title, description }) => {
                 key={index}
                 src={photo}   
                 alt={`Slide ${index + 1}`} 
-                className="w-full rounded-xl h-full object-cover" 
+                className="rounded-xl h-full object-cover" 
               />
             ))}
           </Carousel>

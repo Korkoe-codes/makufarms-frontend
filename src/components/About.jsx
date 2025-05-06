@@ -19,9 +19,9 @@ const About = () => {
         <div className=" w-full lg:p-24 p-10 flex flex-col gap-5 md:gap-10 lg:gap-16">
           <div className="flex flex-col lg:w-3/5 mx-auto text-center  lg:gap-10 gap-4">
             <h1 className="text-xl font-semibold md:text-2xl lg:text-3xl xl:text-5xl lg:font-bold">Empowering Agriculture, Enriching Lives</h1>
-            <p className="lg:text-lg text-sm lg:font-normal text-[#E25641]">
+            <p className="text-base md:text-lg lg:text-xl font-medium leading-relaxed max-w-3xl mx-auto">
             At Maku Farms, we believe that agriculture is more than just growing crops—it’s about transforming lives. Nestled within the fertile lands of the Kpong Irrigation Scheme in Asutuare, Ghana, our farm is a beacon of innovation and opportunity. Through sustainable farming practices and community-driven initiatives, we are empowering young individuals and vulnerable groups to achieve financial independence and food security.
-            Be part of the journey. Together, we grow.
+            <span className="block mt-4 font-semibold">Be part of the journey. Together, we grow.</span>
 
             </p>
           </div>
@@ -37,7 +37,7 @@ const About = () => {
               <h2 className="text-xl lg:text-3xl xl:text-5xl font-medium text-center lg:text-left">Our Mission</h2>
 
             </div>
-              <p className="text-xs md:text-sm lg:text-lg xl:text-xl text-justify lg:text-left font-medium">
+              <p className="text-xs md:text-sm lg:text-base xl:text-xl text-justify lg:text-left font-medium">
               To revolutionize agriculture by constructing state-of-the-art greenhouses for vegetable production and developing a modern rice mill, ensuring high-quality, sustainable food production for local and international markets.
               </p>
             </div>
