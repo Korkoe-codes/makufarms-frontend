@@ -8,7 +8,7 @@ export const Card = ({ image_path, title, description }) => {
   return (
     <div className='flex flex-col lg:gap-10 w-full'>      
       <div className="max-w-xl w-full mx-auto">
-      <div className=" h-94  overflow-hidden">
+      <div className=" h-96  overflow-hidden">
         {isImageArray ? (
           <Carousel>
             {image_path.map((photo, index) => (

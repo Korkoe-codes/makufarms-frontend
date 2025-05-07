@@ -1,12 +1,12 @@
 
 const FounderSlider = () => {
   return (
-    <div className="flex flex-col gap-6">
+    <div className="flex flex-col w-full gap-3 lg:gap-6">
     <h2 className="text-2xl md:text-3xl lg:text-5xl font-semibold text-gray-900">
       Meet Our Founder
     </h2>
     
-    <div className="space-y-4 text-gray-700">
+    <div className="space-y-2 text-gray-700">
       <p className="text-sm md:text-base lg:text-lg leading-relaxed">
       Driven by a passion for sustainable agriculture and community empowerment, Jane Doe founded MakuFarms to revolutionize farming practices. With a focus on implementing innovative technologies, providing hands-on training, and maintaining high standards of produce quality, she leads a team committed to environmental stewardship, research, and local collaboration. Under her leadership, MakuFarms continues to grow as a model for modern, sustainable farming.
       </p>

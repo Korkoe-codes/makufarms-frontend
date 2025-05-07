@@ -11,7 +11,7 @@ const Home = () => {
       </header>
 
       <section className="flex flex-col justify-center lg:static absolute z-20 bottom-0 top-0 items-start lg:w-full px-10 lg:px-20 lg:z-40">
-        <h1 className="lg:text-5xl text-2xl xl:text-6xl 2xl:text-7xl font-bold text-[#E6E6E9]">
+        <h1 className="lg:text-5xl sm:text-4xl text-2xl  xl:text-6xl 2xl:text-7xl font-bold text-[#E6E6E9]">
           Empowering Communities Through Sustainable Agriculture
         </h1>
 

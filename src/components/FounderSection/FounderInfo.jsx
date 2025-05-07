@@ -26,7 +26,7 @@ const FounderInfo = () => {
         return () => clearInterval(timer);
     },[goToNext]);
   return (
-    <div className='relative h-[400px] w-full md:h-[500px] rounded-tl-2xl rounded-br-2xl lg:h-[550px] overflow-hidden '>
+    <div className='relative w-full lg:w-3/4 rounded-tl-2xl rounded-br-2xl overflow-hidden mx-auto lg:mx-0 lg:aspect-[3/4]'>
     <AnimatePresence mode='wait' initial={false}>
         <motion.img
         key={currentImg}
