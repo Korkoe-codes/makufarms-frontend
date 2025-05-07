@@ -6,6 +6,7 @@ import about2 from './about.jpg'
 import founder from './founder.jpg'
 import founder2 from './founder2.jpg'
 import founder3 from './founderProfessional.jpg'
+import founder4 from './founder4.jpg'
 import sdg1 from './SDG-icons/sdg1.png'
 import sdg2 from './SDG-icons/sdg2.png'
 import sdg8 from './SDG-icons/sdg8.png'
@@ -84,7 +85,8 @@ export const aboutImage2 = about2;
 export const founderImgs = [
     founder,
     founder2,
-    founder3
+    founder3,
+    founder4
 ];
 
 export default heroImages;

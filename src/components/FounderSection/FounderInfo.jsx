@@ -40,6 +40,8 @@ const FounderInfo = () => {
         />
     </AnimatePresence>
 
+
+
     <div className="absolute inset-0 flex items-center justify-between z-10">
         <button 
         className="bg-white/30 backdrop-blur-md hover:bg-white/50 transition-colors rounded-full p-2 text-black"
