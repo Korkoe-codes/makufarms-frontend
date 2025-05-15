@@ -1,6 +1,17 @@
 import hero1 from './hero1.jpg'
 import hero2 from './hero2.jpg'
 import hero3 from './hero3.jpg'
+
+import location1 from './Progress/location1.jpg'
+import location2 from './Progress/location2.jpg'
+import location3 from './Progress/location3.jpg'
+import location4 from './Progress/location4.jpg'
+
+import security1 from './Progress/security1.jpg'
+import security2 from './Progress/security2.jpg'
+import security3 from './Progress/security3.jpg'
+import security4 from './Progress/security4.jpg'
+
 import about from './about.webp'
 import about2 from './about.jpg'
 import founder from './founder.jpg'
@@ -36,6 +47,19 @@ export const aboutSlider = [
     about3,
     about2,
     about
+];
+
+export const locationImages = [
+    location1,
+    location2,
+    location3,
+    location4
+];
+export const securityImages = [
+    security1,
+    security2,
+    security3,
+    security4
 ];
 
 export const misc = [

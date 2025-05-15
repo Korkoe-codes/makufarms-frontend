@@ -3,7 +3,7 @@ import { Card } from "./Card"
 import { sdgImages } from "../assets/index"
 // import Carousel from "./Carousel"
 
-import { aboutSlider } from "../assets";
+import { aboutSlider, locationImages, securityImages } from "../assets";
 // import { useEffect, useState } from "react"
 import  FounderSection  from "./FounderSection";
 const About = () => {
@@ -66,10 +66,10 @@ const About = () => {
 
 
     <aside className="grid bg-gray-50 md:grid-cols-2 gap-10 lg:gap-24 w-full lg:p-24 p-10">
-        <Card image_path={aboutSlider}  title={"Why Asutuare?"} description="Asutuare was chosen as the starting hub for its unique agricultural advantage, sitting on the Kpong Irrigation Scheme, one of Ghana’s most fertile farming areas. The region’s well-developed irrigation infrastructure makes it ideal for rice cultivation and sustainable agriculture. With a rich history in farming and a strong agricultural community, Asutuare provides the perfect environment to establish a model farm that can drive food security and economic growth.
+        <Card image_path={locationImages}  title={"Why Asutuare?"} description="Asutuare was chosen as the starting hub for its unique agricultural advantage, sitting on the Kpong Irrigation Scheme, one of Ghana’s most fertile farming areas. The region’s well-developed irrigation infrastructure makes it ideal for rice cultivation and sustainable agriculture. With a rich history in farming and a strong agricultural community, Asutuare provides the perfect environment to establish a model farm that can drive food security and economic growth.
 
 "/>
-        <Card image_path={aboutSlider}  title={"Securing the Land for Growth"} description="Maku Farms has successfully acquired a prime piece of land within the irrigation scheme, ensuring access to a reliable water source and the right conditions for high-yield farming. This land acquisition is a crucial step toward building a sustainable agribusiness that will serve as both a production site and a training ground for young farmers and entrepreneurs in the agricultural sector."/>
+        <Card image_path={securityImages}  title={"Securing the Land for Growth"} description="Maku Farms has successfully acquired a prime piece of land within the irrigation scheme, ensuring access to a reliable water source and the right conditions for high-yield farming. This land acquisition is a crucial step toward building a sustainable agribusiness that will serve as both a production site and a training ground for young farmers and entrepreneurs in the agricultural sector."/>
         <Card image_path={aboutSlider}  title={"Progress So Far"} description="Our journey is well underway, with significant milestones already achieved. The construction of the perimeter wall has been completed, securing the land and paving the way for infrastructure development. Soil testing and initial land preparations have been carried out to ensure optimal conditions for cultivation. These efforts mark the beginning of a structured, scalable agricultural project designed for long-term success."/>
         <Card image_path={aboutSlider} title={"The Vision for Full Utilization"}  description="The ultimate goal for Maku Farms is to establish a fully operational agricultural hub, integrating sustainable rice production, innovative farming practices, and agribusiness opportunities. Future plans include setting up modern storage facilities, processing units, and training programs to support the local farming community. Our vision is to create a self-sustaining ecosystem that enhances food production, generates employment, and promotes environmentally responsible farming."/>
 
